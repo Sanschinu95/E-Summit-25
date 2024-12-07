@@ -22,3 +22,11 @@ Keep all the images and SVG files in the assets folder under a specific section 
 # Fonts
 Import all fonts at the top of the index.css file
 
+# Instructions for Tailwind
+- when uing tailwind, use liveserver extension of vscode in addition to a script running in terminal
+- for script: 
+- in the root directory terminal, run command:
+```bash
+npm run dev
+```
+- this will ensure that the preview updates whenever you save changes.
