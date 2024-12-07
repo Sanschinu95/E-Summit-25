@@ -1,0 +1,194 @@
+section.footer {
+    --footer-element-base-font-size:16px;
+    background-image: url(assests/footer/footer_bg.webp);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+    padding: 4rem 4rem;
+    color: #B5B5B6;
+
+}
+
+h2.footer-head {
+    color: #E50914;
+    font-family: Inter;
+    font-size: 1.675rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.225rem;
+
+    margin-bottom: 1.5rem;
+}
+
+div.footer-one {
+    padding: 1rem;
+}
+
+div.footer-one-contacts {
+    padding-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+div.footer-contact-element {
+    max-width: 20rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+img.contact-element-image {
+    width: 1.125rem;
+    height: 1.125rem;
+    flex-shrink: 0;
+    display: block;
+    align-self: flex-start;
+    margin-top: 0.05rem;
+}
+
+div.contact-element-text {
+    color: #B5B5B6;
+    font-family: 'Inter';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.12rem;
+}
+
+div.footer-one-social {
+    padding-left: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.footer-social-image {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+
+div.footer-two {
+    border-left: 1px solid #515151;
+    border-right: 1px solid #515151;
+    padding: 1rem 3rem;
+    width: 35%;
+}
+
+h2.footer-two-head {
+    font-family: 'Raleway', sans-serif;
+}
+
+div.footer-input>input {
+    border: 0;
+    border-bottom: 1px solid #555;
+    background: transparent;
+    width: 100%;
+    padding: 8px 0 5px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: normal;
+    letter-spacing: 0.1125rem;
+    color: #949494;
+    transition: 0.4s;
+}
+
+div.footer-input>textarea {
+    border: none;
+    overflow: hidden;
+
+    border-bottom: 1px solid #555;
+    background: transparent;
+    width: 100%;
+    padding: 8px 0 5px 0;
+    height: 100px;
+    resize: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: normal;
+    letter-spacing: 0.1125rem;
+    color: #949494;
+    transition: 0.4s;
+}
+
+button.footer-form-submit-button {
+   
+    border: 1px solid #E50914;;
+    border-radius: 0.75rem;
+    width: 7.35713rem;
+    height: 2.0625rem;
+
+    color: #949494;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 0.6875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.0825rem;
+}
+
+div.footer-input>textarea:focus,
+div.footer-input>input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid  #E50914;
+}
+
+button.footer-form-submit-button:hover {
+    background-color:#E50914;
+    color:white;
+   
+    transition: all 0.3s ease-in-out;
+}
+
+div.footer-three {
+    padding: 1rem;
+    padding-right: 0;
+}
+
+h2.footer-three-head {
+    text-align: center;
+}
+
+div.footer-three-posts {
+    display: grid;
+    grid-template-columns: repeat(3, 5.5rem);
+    grid-template-rows: repeat(2, 5.5rem);
+    gap: 2rem;
+    justify-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+div.instagram-posts {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 0.3225rem;
+    background: #D9D9D9;
+}
+
+img.instagram-post-image {
+    display: block;
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 0.3225rem;
+}
+
