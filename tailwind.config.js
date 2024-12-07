@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./**/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        "primary":"#E50914"
+      },
+      fontFamily:{
+        "fancyheading":["lemonmilk","sans-serif"],
+        "inter":["Inter", "sans-serif"]
+      }
+    },
   },
   plugins: [],
 }
