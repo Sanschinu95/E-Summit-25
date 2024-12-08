@@ -22,6 +22,12 @@
     font-weight: 700;
 }
 
+/* Font for timer */
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url('../assets/Fonts/Bahnschrift-Font-Family/BAHNSCHRIFT.TTF') format('truetype');
+}
+
 body,html{
     width: 100%;
     overflow-x: hidden;

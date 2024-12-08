@@ -8,7 +8,8 @@ module.exports = {
       },
       fontFamily:{
         "fancyheading":["lemonmilk","sans-serif"],
-        "inter":["Inter", "sans-serif"]
+        "inter":["Inter", "sans-serif"],
+        "counter":["Bahnschrift", "sans-serif"]
       }
     },
   },
