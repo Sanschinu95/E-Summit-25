@@ -9,7 +9,8 @@ module.exports = {
       fontFamily:{
         "fancyheading":["lemonmilk","sans-serif"],
         "inter":["Inter", "sans-serif"],
-        "counter":["Bahnschrift", "sans-serif"]
+        "counter":["Bahnschrift", "sans-serif"],
+        "montserrat":["Montserrat", "sans-serif"]
       }
     },
   },
