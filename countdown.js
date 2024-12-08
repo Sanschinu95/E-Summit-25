@@ -69,19 +69,19 @@ const setValuesOfCountDownVariebles = () => {
             secondIndicators.three.style.height = "0"
             secondIndicators.four.style.width = "0"
         }
-        else if(0.25<=p_seconds && p_seconds<0.55){
+        else if(0.30<=p_seconds && p_seconds<0.55){
             secondIndicators.one.style.height = "100%"
             secondIndicators.two.style.width = (( (p_seconds-0.25)*100/0.29)-10)+"%"
             secondIndicators.three.style.height = "0"
             secondIndicators.four.style.width = "0"
         }
-        else if(0.50<=p_seconds && p_seconds<0.80){
+        else if(0.55<=p_seconds && p_seconds<0.80){
             secondIndicators.one.style.height = "100%"
             secondIndicators.two.style.width = "100%"
             secondIndicators.three.style.height = (( (p_seconds-0.5)*100/0.29)-10)+"%"
             secondIndicators.four.style.width = "0"
         }
-        else if(0.75<=p_seconds && p_seconds<1){
+        else if(0.80<=p_seconds && p_seconds<1){
             secondIndicators.one.style.height = "100%"
             secondIndicators.two.style.width = "100%"
             secondIndicators.three.style.height = "100%"
@@ -107,19 +107,19 @@ const setValuesOfCountDownVariebles = () => {
             minIndicators.three.style.height = "0"
             minIndicators.four.style.width = "0"
         }
-        else if(0.25<=p_minutes && p_minutes<0.55){
+        else if(0.30<=p_minutes && p_minutes<0.55){
             minIndicators.one.style.height = "100%"
             minIndicators.two.style.width = (( (p_minutes-0.25)*100/0.29)-10)+"%"
             minIndicators.three.style.height = "0"
             minIndicators.four.style.width = "0"
         }
-        else if(0.50<=p_minutes && p_minutes<0.80){
+        else if(0.55<=p_minutes && p_minutes<0.80){
             minIndicators.one.style.height = "100%"
             minIndicators.two.style.width = "100%"
             minIndicators.three.style.height = (( (p_minutes-0.50)*100/0.29)-10)+"%"
             minIndicators.four.style.width = "0"
         }
-        else if(0.75<=p_minutes && p_minutes<1){
+        else if(0.80<=p_minutes && p_minutes<1){
             minIndicators.one.style.height = "100%"
             minIndicators.two.style.width = "100%"
             minIndicators.three.style.height = "100%"
@@ -144,19 +144,19 @@ const setValuesOfCountDownVariebles = () => {
             hourIndicators.three.style.height = "0"
             hourIndicators.four.style.width = "0"
         }
-        else if(0.25<=p_hours && p_hours<0.55){
+        else if(0.30<=p_hours && p_hours<0.55){
             hourIndicators.one.style.height = "100%"
             hourIndicators.two.style.width = (( (p_hours-0.25)*100/0.29)-10)+"%"
             hourIndicators.three.style.height = "0"
             hourIndicators.four.style.width = "0"
         }
-        else if(0.50<=p_hours && p_hours<0.80){
+        else if(0.55<=p_hours && p_hours<0.80){
             hourIndicators.one.style.height = "100%"
             hourIndicators.two.style.width = "100%"
             hourIndicators.three.style.height = (( (p_hours-0.50)*100/0.29)-10)+"%"
             hourIndicators.four.style.width = "0"
         }
-        else if(0.75<=p_hours && p_hours<1){
+        else if(0.80<=p_hours && p_hours<1){
             hourIndicators.one.style.height = "100%"
             hourIndicators.two.style.width = "100%"
             hourIndicators.three.style.height = "100%"
@@ -180,19 +180,19 @@ const setValuesOfCountDownVariebles = () => {
             daysIndicators.three.style.height = "0"
             daysIndicators.four.style.width = "0"
         }
-        else if(0.25<=p_days && p_days<0.55){
+        else if(0.30<=p_days && p_days<0.55){
             daysIndicators.one.style.height = "100%"
             daysIndicators.two.style.width = (( (p_days-0.25)*100/0.29)-10)+"%"
             daysIndicators.three.style.height = "0"
             daysIndicators.four.style.width = "0"
         }
-        else if(0.50<=p_days && p_days<0.80){
+        else if(0.55<=p_days && p_days<0.80){
             daysIndicators.one.style.height = "100%"
             daysIndicators.two.style.width = "100%"
             daysIndicators.three.style.height = (( (p_days-0.50)*100/0.29)-10)+"%"
             daysIndicators.four.style.width = "0"
         }
-        else if(0.75<=p_days && p_days<1){
+        else if(0.80<=p_days && p_days<1){
             daysIndicators.one.style.height = "100%"
             daysIndicators.two.style.width = "100%"
             daysIndicators.three.style.height = "100%"

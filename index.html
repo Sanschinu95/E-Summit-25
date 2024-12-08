@@ -69,14 +69,14 @@
       <div id="countdown" class="-translate-y-20 flex flex-row gap-3 sm:gap-4 md:gap-5 lg:gap-7 flex-nowrap justify-center items-center p-10" >
         
         
-        <div class="relative overflow-hidden  p-1 md:p-2 lg:p-3 bg-gray-400 rounded-2xl">
+        <div class="relative overflow-hidden  p-1 md:p-2 lg:p-3 bg-gray-400 rounded sm:rounded-xl md:rounded-2xl">
           
-          <div id="days-ind-1" class="transition-[width,height] absolute left-0 bottom-0 w-5 h-1/2 bg-gradient-to-t from-transparent to-primary"></div>
-          <div id="days-ind-2" class="transition-[width,height] absolute left-0 top-0 w-1/2 h-5 bg-primary"></div>
-          <div id="days-ind-3" class="transition-[width,height] absolute right-0 top-0 w-5 h-1/2 bg-primary"></div>
-          <div id="days-ind-4" class="transition-[width,height] absolute right-0 bottom-0 w-1/2 h-5 bg-primary"></div>
+          <div id="days-ind-1" class="transition-[width,height] absolute left-0 bottom-0 w-[10%] h-1/2 bg-gradient-to-t from-transparent to-primary"></div>
+          <div id="days-ind-2" class="transition-[width,height] absolute left-0 top-0 w-1/2 h-[10%] bg-primary"></div>
+          <div id="days-ind-3" class="transition-[width,height] absolute right-0 top-0 w-[10%] h-1/2 bg-primary"></div>
+          <div id="days-ind-4" class="transition-[width,height] absolute right-0 bottom-0 w-1/2 h-[10%] bg-primary"></div>
           
-          <span class="relative z-20 bg-black rounded-xl count aspect-square h-auto w-14 sm:min-w-28 md:min-w-32 lg:min-w-40 gap-1 md:gap-2 flex flex-col  font-counter text-center justify-center items-center">
+          <span class="relative z-20 bg-black rounded sm:rounded-lg md:rounded-xl count aspect-square h-auto w-14 sm:min-w-28 md:min-w-32 lg:min-w-40 gap-1 md:gap-2 flex flex-col  font-counter text-center justify-center items-center">
             <p id="count-days" class="font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl" >
                 00
             </p>
@@ -86,15 +86,15 @@
         </span>
       </div>
 
-        <div class="relative overflow-hidden  p-1 md:p-2 lg:p-3 bg-gray-400 rounded-2xl" >
+        <div class="relative overflow-hidden  p-1 md:p-2 lg:p-3 bg-gray-400 rounded sm:rounded-xl md:rounded-2xl" >
           
-          <div id="hours-ind-1" class="transition-[width,height] absolute left-0 bottom-0 w-5 h-1/2 bg-gradient-to-t from-transparent to-primary"></div>
-          <div id="hours-ind-2" class="transition-[width,height] absolute left-0 top-0 w-1/2 h-5 bg-primary"></div>
-          <div id="hours-ind-3" class="transition-[width,height] absolute right-0 top-0 w-5 h-1/2 bg-primary"></div>
-          <div id="hours-ind-4" class="transition-[width,height] absolute right-0 bottom-0 w-1/2 h-5 bg-primary"></div>
+          <div id="hours-ind-1" class="transition-[width,height] absolute left-0 bottom-0 w-[10%] h-1/2 bg-gradient-to-t from-transparent to-primary"></div>
+          <div id="hours-ind-2" class="transition-[width,height] absolute left-0 top-0 w-1/2 h-[10%] bg-primary"></div>
+          <div id="hours-ind-3" class="transition-[width,height] absolute right-0 top-0 w-[10%] h-1/2 bg-primary"></div>
+          <div id="hours-ind-4" class="transition-[width,height] absolute right-0 bottom-0 w-1/2 h-[10%] bg-primary"></div>
           
 
-          <span class="z-20 relative bg-black rounded-xl count aspect-square h-auto w-14 sm:min-w-28 md:min-w-32 lg:min-w-40 gap-1 md:gap-2  flex flex-col font-counter text-center justify-center items-center">
+          <span class="z-20 relative bg-black rounded sm:rounded-lg md:rounded-xl count aspect-square h-auto w-14 sm:min-w-28 md:min-w-32 lg:min-w-40 gap-1 md:gap-2  flex flex-col font-counter text-center justify-center items-center">
             <p id="count-hours" class="font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl" >
                 00
             </p>
@@ -102,28 +102,28 @@
           </span>
         </div>
 
-        <div class=" p-1 md:p-2 lg:p-3 bg-gray-400 rounded-2xl relative overflow-hidden " >
+        <div class=" p-1 md:p-2 lg:p-3 bg-gray-400 rounded sm:rounded-xl md:rounded-2xl relative overflow-hidden " >
           
-          <div id="mins-ind-1" class="transition-[width,height] absolute left-0 bottom-0 w-5 h-1/2 bg-gradient-to-t from-transparent to-primary"></div>
-          <div id="mins-ind-2" class="transition-[width,height] absolute left-0 top-0 w-1/2 h-5 bg-primary"></div>
-          <div id="mins-ind-3" class="transition-[width,height] absolute right-0 top-0 w-5 h-1/2 bg-primary"></div>
-          <div id="mins-ind-4" class="transition-[width,height] absolute right-0 bottom-0 w-1/2 h-5 bg-primary"></div>
+          <div id="mins-ind-1" class="transition-[width,height] absolute left-0 bottom-0 w-[10%] h-1/2 bg-gradient-to-t from-transparent to-primary"></div>
+          <div id="mins-ind-2" class="transition-[width,height] absolute left-0 top-0 w-1/2 h-[10%] bg-primary"></div>
+          <div id="mins-ind-3" class="transition-[width,height] absolute right-0 top-0 w-[10%] h-1/2 bg-primary"></div>
+          <div id="mins-ind-4" class="transition-[width,height] absolute right-0 bottom-0 w-1/2 h-[10%] bg-primary"></div>
           
           
-          <span class="relative z-20 bg-black rounded-xl count aspect-square h-auto w-14 sm:min-w-28 md:min-w-32 lg:min-w-40 gap-1 md:gap-2 flex flex-col  font-counter text-center justify-center items-center">
+          <span class="relative z-20 bg-black rounded sm:rounded-lg md:rounded-xl count aspect-square h-auto w-14 sm:min-w-28 md:min-w-32 lg:min-w-40 gap-1 md:gap-2 flex flex-col  font-counter text-center justify-center items-center">
             <p id="count-mins" class="font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl" >00</p>
             <p class="uppercase font-extralight text-xs md:text-md lg:text-lg" >Mins</p>
           </span>
         </div>
 
-        <div class=" p-1 md:p-2 lg:p-3 bg-gray-400 rounded-2xl relative overflow-hidden" >
+        <div class=" p-1 md:p-2 lg:p-3 bg-gray-400 rounded sm:rounded-xl md:rounded-2xl relative overflow-hidden" >
           
-          <div id="secs-ind-1" class="transition-[width,height] absolute left-0 bottom-0 w-5 h-1/2 bg-gradient-to-t from-transparent to-primary"></div>
-          <div id="secs-ind-2" class="transition-[width,height] absolute left-0 top-0 w-1/2 h-5 bg-primary"></div>
-          <div id="secs-ind-3" class="transition-[width,height] absolute right-0 top-0 w-5 h-1/2 bg-primary"></div>
-          <div id="secs-ind-4" class="transition-[width,height] absolute right-0 bottom-0 w-1/2 h-5 bg-primary"></div>
+          <div id="secs-ind-1" class="transition-[width,height] absolute left-0 bottom-0 w-[10%] h-1/2 bg-gradient-to-t from-transparent to-primary"></div>
+          <div id="secs-ind-2" class="transition-[width,height] absolute left-0 top-0 w-1/2 h-[10%] bg-primary"></div>
+          <div id="secs-ind-3" class="transition-[width,height] absolute right-0 top-0 w-[10%] h-1/2 bg-primary"></div>
+          <div id="secs-ind-4" class="transition-[width,height] absolute right-0 bottom-0 w-1/2 h-[10%] bg-primary"></div>
           
-          <span class="z-20 relative bg-black rounded-xl count aspect-square h-auto w-14 sm:min-w-28 md:min-w-32 lg:min-w-40 gap-1 md:gap-2 flex flex-col  font-counter text-center justify-center items-center">
+          <span class="z-20 relative bg-black rounded sm:rounded-lg md:rounded-xl count aspect-square h-auto w-14 sm:min-w-28 md:min-w-32 lg:min-w-40 gap-1 md:gap-2 flex flex-col  font-counter text-center justify-center items-center">
             <p id="count-secs" class="font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl" >00</p>
             <p class="uppercase font-extralight text-xs md:text-md lg:text-lg" >Secs</p>
         </span>
