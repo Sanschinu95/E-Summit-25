@@ -449,6 +449,58 @@
   <!-- Speakers Section Ends-->
 
 
+  <!-- Gallery Start -->
+  
+  <section class="w-full px-5 sm:px-7 md:px-10 py-10 flex flex-col items-center justify-center gap-12">
+    
+    <h2 class="text-5xl text-[#FFF9F9] font-semibold">
+      Gallery
+    </h2>
+
+    <h1 class="w-full bg-gradient-to-r from-[#501619] via-primary to-[#7F050B] text-center font-extrabold text-6xl text-transparent bg-clip-text">
+      Glimpse of E-Summit-24
+    </h1>
+
+    <div id="carousel-encloser" class="w-full flex flex-row justify-center items-center gap-5 sm:gap-7 md:gap-10 relative">
+        <span id="carousel-left" class="cursor-pointer rounded-full border-2 border-primary hover:border-white active:scale-95 w-[10%] min-w-[50px] max-w-[100px] aspect-square flex justify-center items-center">
+
+          <svg class="w-2/5 h-auto text-primary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+          </svg>
+
+        </span>
+        <div class=" w-full max-w-lg aspect-[0.9/1] border-2 border-primary flex flex-row flex-nowrap relative overflow-hidden">
+            
+          <span id="carousel-reel" data-activeIndex="0" class="absolute top-0 left-0 w-full h-full transition-transform">
+                <span class="bg-sky-400 w-full h-full absolute"></span>
+                <span class="bg-pink-400 w-full h-full absolute left-[100%]"></span>
+                <span class="bg-purple-400 w-full h-full absolute left-[200%]"></span>
+                <span class="bg-orange-400 w-full h-full absolute left-[300%]"></span>
+            </span>
+        </div>
+
+        <div id="horizontal-d" class="z-1 w-4/5 h-1/6 bg-black absolute bottom-0 border-t-2 border-primary left-1/2 -translate-x-1/2 translate-y-1/2 rounded-[100%]"></div>
+        <span id="carousel-right" class="cursor-pointer rounded-full border-2 border-primary hover:border-white active:scale-95 w-[10%] min-w-[50px] max-w-[100px] aspect-square flex justify-center items-center">
+
+          <svg class="w-2/5 h-auto text-primary" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+          </svg>
+
+        </span>
+    </div>
+
+    <span id="carousel-dots" class="flex justify-center gap-2">
+        <span data-index="0" class="w-4 h-4 cursor-pointer rounded-full bg-primary"></span>
+        <span data-index="1" class="w-4 h-4 cursor-pointer rounded-full bg-white"></span>
+        <span data-index="2" class="w-4 h-4 cursor-pointer rounded-full bg-white"></span>
+        <span data-index="3" class="w-4 h-4 cursor-pointer rounded-full bg-white"></span>
+    </span>
+
+
+  </section>
+
+  <!-- Gallery End  -->
+
    <!-- SPONSORS -->
   <section id="sponsors" class="sponsor">
     <div class="sponsor-con">
@@ -849,6 +901,7 @@
 
   <script src="./countdown.js"></script>
   <script src="./navbar.js"></script>
+  <script src="./carousel.js"></script>
 
 </body>
 </html>
