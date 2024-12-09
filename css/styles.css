@@ -853,6 +853,10 @@ video {
   gap: 2rem;
 }
 
+.gap-16 {
+  gap: 4rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
