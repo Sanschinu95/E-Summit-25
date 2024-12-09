@@ -117,6 +117,7 @@ img.sponsor-image,img.partner-image,img.media-partner-image {
 @media screen and (max-width: 600px){
     section.sponsor{
         padding: 3rem 2rem;
+        background-size: contain;
     }
     
     h3.sponsor-con-h1,h3.partner-con-h1,h3.media-partner-con-h1 {
