@@ -1,74 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
-    font-family: 'Inter', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: black;
-    color: white;
-  }
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+}
 
-  .radial-gradient {
-    position: absolute;
-    width: 800px; 
-    height: 800px; 
-    background: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(255, 0, 0, 0.1) 60%, rgba(0, 0, 0, 0) 100%);
-    border-radius: 50%;
-    z-index: 1; 
-    transform: translate(-50%, -50%); 
-    opacity: 37%;
+.radial-gradient {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(255, 0, 0, 0.1) 60%, rgba(0, 0, 0, 0) 100%);
+  border-radius: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  opacity: 37%;
+}
 
-  }
+.gradient-container-1 {
+  position: absolute;
+  top: 40%;
+  left: 80%;
+  z-index: 1;
+}
 
-  .gradient-container-1 {
-    position: absolute;
-    top: 40%; 
-    left: 80%; 
-    z-index: 1; 
-  }
+.gradient-container-2 {
+  position: absolute;
+  top: 95%;
+  left: 5%;
+  z-index: 1;
+}
 
-  .gradient-container-2 {
-    position: absolute;
-    top: 95%; 
-    left: 5%; 
-    z-index: 1; 
-  }
+.about-us {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+  position: relative;
+}
 
+.about-us .logo-container {
+  max-width: 400px;
+}
+
+.about-us .logo-container img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgb(136, 7, 7);
+}
+
+.about-us .content {
+  max-width: 600px;
+}
+
+
+.about-us .content p {
+  line-height: 1.6;
+  font-size: 1.1rem;
+  z-index: 100;
+  text-align: justify;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
   .about-us {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 50px;
-    position: relative;
-
+    flex-direction: column; 
+    text-align: center; 
+    padding: 20px;
   }
 
   .about-us .logo-container {
-    
-    max-width: 400px;
+    margin-bottom: 20px; 
+    max-width: 300px; 
   }
-  
-  .about-us .logo-container img {
-    
-    width: 100%;
-    border-radius: 50%;
-    box-shadow: 0 0 20px rgb(136, 7, 7);
+
+ 
+
+  .about-us .content p {
+    font-size: 0.9rem; 
+    line-height: 1.4; 
   }
-  .about-us .content {
-    max-width: 600px;
+
+  .radial-gradient {
+    width: 400px; 
+    height: 400px;
+    opacity: 0.3; 
   }
-  .about-us .content h1 {
-    color: red;
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 800;
-}
 
   
-  .about-us .content p {
-    line-height: 1.6;
-    font-size: 1.1rem;
-    z-index: 100;
-    text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .about-us .logo-container {
+    max-width: 150px; 
   }
+
+  .about-us .content h1 {
+    padding: 1.5rem; 
+  }
+
+  .about-us .content p {
+    font-size: 0.85rem; 
+  }
+}
+
+
+  
