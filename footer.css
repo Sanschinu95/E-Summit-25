@@ -14,9 +14,9 @@ section.footer {
 h2.footer-head {
     color: #E50914;
     font-family: Inter;
-    font-size: 1.675rem;
+    font-size: 1.875rem;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
     letter-spacing: 0.225rem;
     margin-bottom: 1.5rem;
@@ -174,6 +174,22 @@ img.instagram-post-image {
     border-radius: 0.3225rem;
 }
 
+div.footer-one-social {
+    padding-left: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.footer-social-image {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
 @media (max-width: 1150px){
     h2.footer-head{
         font-size:1.4rem;
@@ -221,6 +237,10 @@ img.instagram-post-image {
 }
 
 @media (max-width: 760px) {
+    .footer-social-image {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
     section.footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -359,6 +379,7 @@ img.instagram-post-image {
         
     section.footer {
             padding: 2rem 0.4rem;
+            background-position:left;
         }
     div.footer-contact-element{
         gap: 0.6rem;

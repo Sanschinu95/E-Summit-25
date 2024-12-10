@@ -29,18 +29,28 @@ h3.sponsor-con-h1,h3.partner-con-h1,h3.media-partner-con-h1  {
     
 }
 
-h2.sponsor-con-h2, h2.partner-con-h2,h2.media-partner-con-h2 {
+ h2.sponsor-con-h2, h2.partner-con-h2,h2.media-partner-con-h2 {
     color: #E50914;
     text-align: center;
     font-family: Inter;
-    font-size: 2.708rem;
+    font-size: 3.508rem;
     font-style: normal;
     font-weight: 800;
     line-height: auto;
     letter-spacing: 0.12188rem;
     margin-bottom: 1.8rem;
     
-}
+} 
+ 
+/*  */
+
+
+
+
+
+
+
+
 
 p.sponsor-con-text,p.partner-con-text,p.media-partner-con-text {
     color: #E8E8E8;
