@@ -11,7 +11,7 @@ section.footer {
 
 }
 
-h2.footer-head {
+/* h2.footer-head {
     color: #E50914;
     font-family: Inter;
     font-size: 1.675rem;
@@ -20,7 +20,7 @@ h2.footer-head {
     line-height: normal;
     letter-spacing: 0.225rem;
     margin-bottom: 1.5rem;
-}
+} */
 
 div.footer-one {
     padding: 1rem;
@@ -175,9 +175,9 @@ img.instagram-post-image {
 }
 
 @media (max-width: 1150px){
-    h2.footer-head{
+    /* h2.footer-head{
         font-size:1.4rem;
-    }
+    } */
     div.contact-element-text{
         font-size: 0.8rem;
     }
@@ -193,9 +193,9 @@ img.instagram-post-image {
 }
 
 @media (max-width: 1000px){
-    h2.footer-head{
+    /* h2.footer-head{
         font-size:1.2rem;
-    }
+    } */
     div.contact-element-text{
         font-size: 0.6rem;
     }
@@ -265,9 +265,9 @@ img.instagram-post-image {
         height: 6.5rem;
         width: 6.5rem;
     }
-    h2.footer-head{
+    /* h2.footer-head{
         font-size:1.4rem;
-    }
+    } */
     div.contact-element-text{
         font-size: 0.8rem;
     }
@@ -282,9 +282,9 @@ img.instagram-post-image {
         grid-template-rows: repeat(2, 3.5rem);
         column-gap: 2rem;
     }
-    h2.footer-head{
+    /* h2.footer-head{
         font-size:1.2rem;
-    }
+    } */
     div.contact-element-text{
         font-size: 0.6rem;
     }
@@ -323,9 +323,9 @@ img.instagram-post-image {
         grid-template-rows: repeat(2, 3.5rem);
         column-gap: 2rem;
     }
-    h2.footer-head{
+    /* h2.footer-head{
         font-size:1rem;
-    }
+    } */
     div.contact-element-text{
         font-size: 0.5rem;
     }
@@ -359,6 +359,7 @@ img.instagram-post-image {
         
     section.footer {
             padding: 2rem 0.4rem;
+            background-position:left;
         }
     div.footer-contact-element{
         gap: 0.6rem;
@@ -383,9 +384,9 @@ img.instagram-post-image {
     section.footer{
         padding: 2rem 0rem;
     }
-    h2.footer-head{
+    /* h2.footer-head{
         font-size:0.85rem;
-    }
+    } */
     div.contact-element-text{
         font-size: 0.4rem;
     }
