@@ -83,7 +83,7 @@ body {
 .about-us .content p {
   line-height: 1.6;
   font-size: 1.1rem;
-  z-index: 100;
+  z-index: 90;
   text-align: justify;
 }
 
