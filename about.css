@@ -19,6 +19,17 @@ body {
   opacity: 37%;
 }
 
+.radial-gradient-e {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(255, 0, 0, 0.1) 60%, rgba(0, 0, 0, 0) 100%);
+  border-radius: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  opacity: 37%;
+}
+
 .gradient-container-1 {
   position: absolute;
   top: 40%;
@@ -30,6 +41,19 @@ body {
   position: absolute;
   top: 95%;
   left: 5%;
+  z-index: 1;
+}
+.gradient-container-3 {
+  position: absolute;
+  top: 95%;
+  left: 5%;
+  z-index: 1;
+}
+
+.gradient-container-4 {
+  position: absolute;
+  top: 40%;
+  left: 80%;
   z-index: 1;
 }
 
@@ -103,6 +127,7 @@ body {
 
   .about-us .content p {
     font-size: 0.85rem; 
+    text-align: justify;
   }
 }
 

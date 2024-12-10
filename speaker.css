@@ -1,76 +1,85 @@
-
 body {
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-    background: #000;
-    color: white;
-  }
-  
-  
-  .speakers-section {
-    position: relative;
-    padding: 50px 20px;
-    text-align: center;
-    
-  }
-  
-  .speakers-section .background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background-image: url(assests/speakers/background.png);
-  }
-  
-  
-  .section-title {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 45px;
-    margin-bottom: 10px;
-  }
-  
-  .sub-title {
-    font-family: 'Inter', sans-serif;
-    font-weight: 800;
-    font-size: 65px;
-    color: #ff0000; 
-    margin-bottom: 50px;
-  }
-  
-  
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #000;
+  color: white;
+}
+
+.speakers-section {
+  position: relative;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.speakers-section .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url('assests/speakers/background.png');
+  background-size: cover;
+  background-position: center;
+}
+h3 {
+  margin-bottom: 30px; }
+
+.speakers-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding: 0 5vw;
+}
+.section-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.sub-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  color: #ff0000; 
+  margin-bottom: 50px;
+}
+
+.speakers-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding: 0 5vw;
+}
+
+@media (min-width: 768px) {
   .speakers-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    justify-items: center;
-    padding: 0 5vb;
+    grid-template-columns: repeat(3, 1fr);
   }
-  
-  @media (min-width: 1024px) {
-    .speakers-container {
-      grid-template-columns: repeat(4, 1fr); 
-    }
+}
+
+@media (min-width: 1024px) {
+  .speakers-container {
+    grid-template-columns: repeat(4, 1fr); 
   }
-  
-  
-  .speaker {
-    text-align: center;
-  }
-  
-  .speaker img {
-    width: 322px;
-    height: 312px;
-    border-radius: 7.33px;
-    
-    object-fit: cover;
-  }
-  
-  .speaker p {
-    margin-top: 10px;
-    font-size: 26.09px;
-    font-weight: 600; 
-  }
-  
+}
+
+.speaker {
+  text-align: center;
+}
+
+.speaker img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.speaker p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600; 
+}
