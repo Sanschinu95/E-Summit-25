@@ -58,3 +58,21 @@ for (let dot of dots){
 
     }
 }
+
+setInterval((event)=>{
+    dots[activeIndex].classList.remove("bg-primary")
+    dots[activeIndex].classList.add("bg-white")
+    
+    if(activeIndex<3){
+        activeIndex++
+        carouselReel.style.transition = ""
+    }
+    else{
+        activeIndex = 0;
+        carouselReel.style.transition = "none"
+    }
+    
+    dots[activeIndex].classList.remove("bg-white")
+    dots[activeIndex].classList.add("bg-primary")
+    carouselReel.style.transform = `translateX(-${100*activeIndex}%)`
+},3000)
