@@ -59,7 +59,9 @@ for (let dot of dots){
     }
 }
 
-setInterval((event)=>{
+let autoCarousel;
+
+autoCarousel = setInterval((event)=>{
     dots[activeIndex].classList.remove("bg-primary")
     dots[activeIndex].classList.add("bg-white")
     
@@ -76,3 +78,30 @@ setInterval((event)=>{
     dots[activeIndex].classList.add("bg-primary")
     carouselReel.style.transform = `translateX(-${100*activeIndex}%)`
 },3000)
+
+const controllers = [carouselLeft, carouselRight, ...dots]
+
+controllers.forEach(element => {
+    element.addEventListener("click", evt => {
+        clearInterval(autoCarousel)
+
+        setTimeout(autoCarousel = setInterval((event)=>{
+            dots[activeIndex].classList.remove("bg-primary")
+            dots[activeIndex].classList.add("bg-white")
+            
+            if(activeIndex<3){
+                activeIndex++
+                carouselReel.style.transition = ""
+            }
+            else{
+                activeIndex = 0;
+                carouselReel.style.transition = "none"
+            }
+            
+            dots[activeIndex].classList.remove("bg-white")
+            dots[activeIndex].classList.add("bg-primary")
+            carouselReel.style.transform = `translateX(-${100*activeIndex}%)`
+        },3000),3000)
+
+    })
+})
