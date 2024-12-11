@@ -5,6 +5,9 @@ body {
   color: white;
 }
 
+.events{
+  margin-bottom: 100px;
+}
 .speakers-section {
   position: relative;
   padding: 50px 20px;
@@ -52,7 +55,7 @@ h3 {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 20px;
   justify-items: center;
-  padding: 0 5vw;
+  padding: 5vw 5vw;
 }
 
 @media (min-width: 768px) {
