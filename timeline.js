@@ -48,6 +48,9 @@ janDaysButtons.forEach( (day,idx) => {
     day.addEventListener("click", evt=> {
         janDaysButtons[activeJanDay].classList.remove("bg-primary","border-primary")
         janDaysButtons[activeJanDay].classList.add("bg-black","border-white")
+        janDaysButtons[activeJanDay].classList.remove("scale-100","opacity-100")
+        janDaysButtons[activeJanDay].classList.add("scale-50","opacity-80")
+        
         janDateBoxes[activeJanDay].classList.remove("flex")
         janDateBoxes[activeJanDay].classList.add("hidden")
         
@@ -57,6 +60,8 @@ janDaysButtons.forEach( (day,idx) => {
         janDaysButtons[activeJanDay].classList.remove("bg-black","border-white")
         janDateBoxes[activeJanDay].classList.add("flex")
         janDateBoxes[activeJanDay].classList.remove("hidden")
+        janDaysButtons[activeJanDay].classList.add("scale-100","opacity-100")
+        janDaysButtons[activeJanDay].classList.remove("scale-50","opacity-80")
     })
 })
 
@@ -81,8 +86,15 @@ febDaysButtons.forEach( (day,idx) => {
     day.addEventListener("click", evt=> {
         febDaysButtons[activeFebDay].classList.remove("bg-primary","border-primary")
         febDaysButtons[activeFebDay].classList.add("bg-black","border-white")
+        
+        febDaysButtons[activeFebDay].classList.remove("scale-100","opacity-100")
+        febDaysButtons[activeFebDay].classList.add("scale-50","opacity-80")
+        
+        
         febDateBoxes[activeFebDay].classList.remove("flex")
         febDateBoxes[activeFebDay].classList.add("hidden")
+        
+        
         
         activeFebDay = idx;
         
@@ -90,5 +102,9 @@ febDaysButtons.forEach( (day,idx) => {
         febDaysButtons[activeFebDay].classList.remove("bg-black","border-white")
         febDateBoxes[activeFebDay].classList.add("flex")
         febDateBoxes[activeFebDay].classList.remove("hidden")
+   
+        febDaysButtons[activeFebDay].classList.add("scale-100","opacity-100")
+        febDaysButtons[activeFebDay].classList.remove("scale-50","opacity-80")
+   
     })
 })
