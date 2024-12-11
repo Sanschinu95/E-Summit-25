@@ -1,6 +1,8 @@
 section.footer {
     --footer-element-base-font-size:16px;
     background-image: url(assests/footer/footer_bg.webp);
+    background-position: center;
+    background-size: cover;
     width: 100%;
     height: 100%;
     display: grid;
@@ -14,9 +16,9 @@ section.footer {
 h2.footer-head {
     color: #E50914;
     font-family: Inter;
-    font-size: 1.675rem;
+    font-size: 1.875rem;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
     letter-spacing: 0.225rem;
     margin-bottom: 1.5rem;
@@ -95,7 +97,7 @@ div.footer-input>textarea {
     background: transparent;
     width: 100%;
     padding: 8px 0 5px 0;
-    height: 100px;
+    height: 110px;
     resize: none;
     font-family: 'Inter';
     font-style: normal;
@@ -174,7 +176,23 @@ img.instagram-post-image {
     border-radius: 0.3225rem;
 }
 
-@media (max-width: 1150px){
+div.footer-one-social {
+    padding-left: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.footer-social-image {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+/* @media (max-width: 1150px){
     h2.footer-head{
         font-size:1.4rem;
     }
@@ -189,18 +207,17 @@ img.instagram-post-image {
         grid-template-rows: repeat(2, 5rem);
         row-gap: 1.6rem;
         column-gap: 1.6rem;
-    }
-}
+    } */
 
-@media (max-width: 1000px){
+@media (max-width: 1060px){
     h2.footer-head{
-        font-size:1.2rem;
+        font-size:1.37rem;
     }
     div.contact-element-text{
-        font-size: 0.6rem;
+        font-size: 0.78rem;
     }
     div.footer-input>input{
-        font-size: 0.6rem;
+        font-size: 0.78rem;
     }
     div.footer-three-posts {
         grid-template-columns: repeat(3, 3.5rem);
@@ -209,18 +226,29 @@ img.instagram-post-image {
         column-gap: 1.1rem;
     }
     div.footer-input>textarea{
-        font-size: 0.6375rem;
+        font-size: 0.7rem;
         
     }
     div.footer-two{
         padding: 1rem 2.5rem;
     }
     div.footer-input>textarea{
-        height: 50px;
+        height: 98px;
+    }
+    .footer-social-image {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    section.footer{
+        padding: 4rem 1rem;
     }
 }
 
 @media (max-width: 760px) {
+    .footer-social-image {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
     section.footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -257,13 +285,13 @@ img.instagram-post-image {
     div.button-wrapper {
         display: flex;
         align-items: center;
-        justify-content: center;
+        
     }
 
     img.instagram-post-image {
         display: block;
-        height: 6.5rem;
-        width: 6.5rem;
+        height: 5.5rem;
+        width: 5.5rem;
     }
     h2.footer-head{
         font-size:1.4rem;
@@ -274,6 +302,10 @@ img.instagram-post-image {
     div.footer-input>input{
         font-size: 0.8rem;
     }
+    .footer-social-image {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
 }
 
 @media (max-width: 530px){
@@ -283,16 +315,16 @@ img.instagram-post-image {
         column-gap: 2rem;
     }
     h2.footer-head{
-        font-size:1.2rem;
+        font-size:1.28rem;
     }
     div.contact-element-text{
-        font-size: 0.6rem;
+        font-size: 0.64rem;
     }
     div.footer-input>input{
-        font-size: 0.6rem;
+        font-size: 0.64rem;
     }
     div.footer-input>textarea{
-        height: 50px;
+        height: 100px;
         font-size: 0.6375rem;
         
     }
@@ -324,13 +356,13 @@ img.instagram-post-image {
         column-gap: 2rem;
     }
     h2.footer-head{
-        font-size:1rem;
+        font-size:1.18rem;
     }
     div.contact-element-text{
-        font-size: 0.5rem;
+        font-size: 0.55rem;
     }
     div.footer-input>input{
-        font-size: 0.5rem;
+        font-size: 0.55rem;
     }
     div.footer-input>textarea{
         height: 50px;
@@ -359,10 +391,11 @@ img.instagram-post-image {
         
     section.footer {
             padding: 2rem 0.4rem;
+            background-position:left;
         }
     div.footer-contact-element{
         gap: 0.6rem;
-        max-width: 7.9rem;
+        max-width: 10rem;
     }
     img.contact-element-image {
         width: 0.75rem;
@@ -377,8 +410,14 @@ img.instagram-post-image {
         flex-direction: column;
         align-items: center;
     }
+    div.footer-input>textarea{
+        height: 90px;
     }
-
+    .footer-social-image {
+        width: 1rem;
+        height: 1rem;
+    }
+}
 @media (max-width: 370px){
     section.footer{
         padding: 2rem 0rem;
@@ -393,7 +432,7 @@ img.instagram-post-image {
         font-size: 0.4rem;
     }
     div.footer-input>textarea{
-        height: 30px;
+        height: 80px;
         font-size: 0.4075rem;
         
     }
