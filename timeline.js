@@ -55,11 +55,12 @@ janDaysButtons.forEach( (day,idx) => {
         janDateBoxes[activeJanDay].classList.add("hidden")
         
         activeJanDay = idx;
-        
+
         janDaysButtons[activeJanDay].classList.add("bg-primary","border-primary")
         janDaysButtons[activeJanDay].classList.remove("bg-black","border-white")
         janDateBoxes[activeJanDay].classList.add("flex")
         janDateBoxes[activeJanDay].classList.remove("hidden")
+
         janDaysButtons[activeJanDay].classList.add("scale-100","opacity-100")
         janDaysButtons[activeJanDay].classList.remove("scale-50","opacity-80")
     })
@@ -97,7 +98,7 @@ febDaysButtons.forEach( (day,idx) => {
         
         
         activeFebDay = idx;
-        
+
         febDaysButtons[activeFebDay].classList.add("bg-primary","border-primary")
         febDaysButtons[activeFebDay].classList.remove("bg-black","border-white")
         febDateBoxes[activeFebDay].classList.add("flex")

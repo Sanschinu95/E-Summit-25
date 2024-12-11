@@ -38,3 +38,16 @@ body,html{
 *{
     box-sizing: border-box;
 }
+
+@keyframes fade-anim{
+    0%{
+        opacity:0;
+        transform: translateX(-5%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+
+}
+
