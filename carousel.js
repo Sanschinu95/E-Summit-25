@@ -12,11 +12,11 @@ carouselRight.onclick = (evt) => {
     
     if(activeIndex<3){
         activeIndex++
-        carouselReel.style.transition = ""
+        // carouselReel.style.transition = ""
     }
     else{
         activeIndex = 0;
-        carouselReel.style.transition = "none"
+        // carouselReel.style.transition = "none"
     }
     
     dots[activeIndex].classList.remove("bg-white")
@@ -29,12 +29,12 @@ carouselLeft.onclick = (evt) => {
     dots[activeIndex].classList.add("bg-white")
     
     if(activeIndex>0){
-        carouselReel.style.transition = ""
+        // carouselReel.style.transition = ""
         activeIndex--
     }
     else{
         activeIndex = 3;
-        carouselReel.style.transition = "none"
+        // carouselReel.style.transition = "none"
     }
     
     dots[activeIndex].classList.remove("bg-white")
@@ -67,11 +67,11 @@ autoCarousel = setInterval((event)=>{
     
     if(activeIndex<3){
         activeIndex++
-        carouselReel.style.transition = ""
+        // carouselReel.style.transition = ""
     }
     else{
         activeIndex = 0;
-        carouselReel.style.transition = "none"
+        // carouselReel.style.transition = "none"
     }
     
     dots[activeIndex].classList.remove("bg-white")
@@ -91,11 +91,11 @@ controllers.forEach(element => {
             
             if(activeIndex<3){
                 activeIndex++
-                carouselReel.style.transition = ""
+                // carouselReel.style.transition = ""
             }
             else{
                 activeIndex = 0;
-                carouselReel.style.transition = "none"
+                // carouselReel.style.transition = "none"
             }
             
             dots[activeIndex].classList.remove("bg-white")
