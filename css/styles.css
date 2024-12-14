@@ -662,20 +662,12 @@ video {
   margin-bottom: 2.5rem;
 }
 
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
 }
 
 .mb-5 {
   margin-bottom: 1.25rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
 }
 
 .mt-20 {
@@ -883,10 +875,6 @@ video {
   --tw-scale-x: .5;
   --tw-scale-y: .5;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.animate-\[fade-anim_0\.25s_ease\] {
-  animation: fade-anim 0.25s ease;
 }
 
 .animate-\[fade-anim_0\.5s_ease\] {
@@ -1122,6 +1110,10 @@ video {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
 
+.bg-red-to-black {
+  background-image: linear-gradient(to right, #E50914, #000000);
+}
+
 .from-\[\#501619\] {
   --tw-gradient-from: #501619 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(80 22 25 / 0) var(--tw-gradient-to-position);
@@ -1245,10 +1237,6 @@ video {
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
-
-.pb-16 {
-  padding-bottom: 4rem;
 }
 
 .pb-4 {
