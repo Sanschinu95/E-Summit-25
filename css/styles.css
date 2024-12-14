@@ -1094,10 +1094,6 @@ video {
   background-image: url('/assets/event-gallery/one.png');
 }
 
-.bg-\[url\(\'\/assets\/event-schedule-bg\.png\'\)\] {
-  background-image: url('/assets/event-schedule-bg.png');
-}
-
 .bg-\[url\(\'\/assets\/herobg\.jpg\'\)\] {
   background-image: url('/assets/herobg.jpg');
 }
@@ -1118,6 +1114,10 @@ video {
   background-image: linear-gradient(to right, #E50914, #000000);
 }
 
+.bg-\[url\(\'\/assets\/event-schedule-bg\.png\'\)\] {
+  background-image: url('/assets/event-schedule-bg.png');
+}
+
 .from-\[\#501619\] {
   --tw-gradient-from: #501619 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(80 22 25 / 0) var(--tw-gradient-to-position);
@@ -1136,26 +1136,26 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-primary {
-  --tw-gradient-from: #E50914 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(229 9 20 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .from-transparent {
   --tw-gradient-from: transparent var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.via-\[rgba\(229\2c 9\2c 20\2c 0\.25\)\] {
-  --tw-gradient-to: rgba(229, 9, 20, 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), rgba(229,9,20,0.25) var(--tw-gradient-via-position), var(--tw-gradient-to);
+.from-primary {
+  --tw-gradient-from: #E50914 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(229 9 20 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .via-primary {
   --tw-gradient-to: rgb(229 9 20 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #E50914 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.via-\[rgba\(229\2c 9\2c 20\2c 0\.25\)\] {
+  --tw-gradient-to: rgba(229, 9, 20, 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), rgba(229,9,20,0.25) var(--tw-gradient-via-position), var(--tw-gradient-to);
 }
 
 .to-\[\#7F050B\] {
@@ -1356,6 +1356,11 @@ video {
 .text-\[\#FFF9F9\] {
   --tw-text-opacity: 1;
   color: rgb(255 249 249 / var(--tw-text-opacity, 1));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .text-gray-300 {
