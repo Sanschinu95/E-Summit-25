@@ -51,3 +51,11 @@ body,html{
 
 }
 
+.swiper-pagination-bullet{
+    background-color: white !important;
+    opacity: 1 !important;
+}
+.swiper-pagination-bullet-active{
+    background-color: #E50914 !important;
+    opacity: 1 !important;
+}

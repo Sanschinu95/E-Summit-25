@@ -12,6 +12,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./navbar.css">
 
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+
   <style>
     html {
   scroll-behavior: smooth;
@@ -675,13 +680,13 @@
 
         </span>
 
-        <div id="carousel-display" class=" w-full max-w-2xl aspect-[1.5/1] border-2 border-primary flex flex-row flex-nowrap relative overflow-hidden">
+        <div id="carousel-display" class="++swiper w-full max-w-2xl aspect-[1.5/1] border-2 border-primary rounded-lg md:rounded-2xl flex flex-row flex-nowrap relative overflow-hidden">
             
-          <span id="carousel-reel" data-activeIndex="0" class="absolute top-0 left-0 w-full h-full transition-transform z-10">
-                <span class="bg-[url('/assets/event-gallery/one.png')] bg-cover bg-top w-full h-full absolute"></span>
-                <span class="bg-pink-400 w-full h-full absolute left-[100%]"></span>
-                <span class="bg-purple-400 w-full h-full absolute left-[200%]"></span>
-                <span class="bg-orange-400 w-full h-full absolute left-[300%]"></span>
+          <span id="carousel-reel" data-activeIndex="0" class="swiper-wrapper ++absolute top-0 left-0 w-full h-full transition-transform ++z-10">
+                <span class="swiper-slide flex bg-[url('/assets/event-gallery/one.png')] bg-cover bg-top w-full h-full ++absolute"></span>
+                <span class="swiper-slide flex bg-pink-400 w-full h-full ++absolute ++left-[100%]"></span>
+                <span class="swiper-slide flex bg-purple-400 w-full h-full ++absolute ++left-[200%]"></span>
+                <span class="swiper-slide flex bg-orange-400 w-full h-full ++absolute ++left-[300%]"></span>
             </span>
         </div>
 
@@ -697,13 +702,14 @@
     </div>
 
     <span id="carousel-dots" class="flex justify-center gap-4 sm:gap-3 md:gap-2 relative z-50 -translate-y-5">
-        <span data-index="0" class=" w-2 sm:w-3 md:w-4 aspect-square cursor-pointer rounded-full bg-primary"></span>
+        <!-- <span data-index="0" class=" w-2 sm:w-3 md:w-4 aspect-square cursor-pointer rounded-full bg-primary"></span>
         <span data-index="1" class=" w-2 sm:w-3 md:w-4 aspect-square cursor-pointer rounded-full bg-white"></span>
         <span data-index="2" class=" w-2 sm:w-3 md:w-4 aspect-square cursor-pointer rounded-full bg-white"></span>
-        <span data-index="3" class=" w-2 sm:w-3 md:w-4 aspect-square cursor-pointer rounded-full bg-white"></span>
+        <span data-index="3" class=" w-2 sm:w-3 md:w-4 aspect-square cursor-pointer rounded-full bg-white"></span> -->
+        <span id="carousel-bullets" class="++swiper-pagination z-50"></span>
     </span>
 
-    <span class="z-0 absolute bottom-0 left-0 right-0 h-full bg-gradient-to-b from-transparent to-black"></span>
+    <div class="z-0 absolute bottom-0 left-0 right-0 h-full bg-gradient-to-b from-transparent to-black"></div>
   </section>
 
   <!-- Gallery End  -->
@@ -1200,7 +1206,9 @@
 
   <script src="./countdown.js"></script>
   <script src="./navbar.js"></script>
-  <script src="./carousel.js"></script>
+  <!-- <script src="./carousel.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./carousel-2.js"></script>
   <script src="./timeline.js"></script>
 
 </body>
