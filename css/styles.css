@@ -662,20 +662,12 @@ video {
   margin-bottom: 2.5rem;
 }
 
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
 }
 
 .mb-5 {
   margin-bottom: 1.25rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
 }
 
 .mt-20 {
@@ -883,10 +875,6 @@ video {
   --tw-scale-x: .5;
   --tw-scale-y: .5;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.animate-\[fade-anim_0\.25s_ease\] {
-  animation: fade-anim 0.25s ease;
 }
 
 .animate-\[fade-anim_0\.5s_ease\] {
@@ -1106,6 +1094,10 @@ video {
   background-image: url('/assets/event-gallery/one.png');
 }
 
+.bg-\[url\(\'\/assets\/event-schedule-bg\.png\'\)\] {
+  background-image: url('/assets/event-schedule-bg.png');
+}
+
 .bg-\[url\(\'\/assets\/herobg\.jpg\'\)\] {
   background-image: url('/assets/herobg.jpg');
 }
@@ -1140,10 +1132,21 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-primary {
+  --tw-gradient-from: #E50914 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(229 9 20 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .from-transparent {
   --tw-gradient-from: transparent var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.via-\[rgba\(229\2c 9\2c 20\2c 0\.25\)\] {
+  --tw-gradient-to: rgba(229, 9, 20, 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), rgba(229,9,20,0.25) var(--tw-gradient-via-position), var(--tw-gradient-to);
 }
 
 .via-primary {
@@ -1161,6 +1164,10 @@ video {
 
 .to-primary {
   --tw-gradient-to: #E50914 var(--tw-gradient-to-position);
+}
+
+.to-transparent {
+  --tw-gradient-to: transparent var(--tw-gradient-to-position);
 }
 
 .bg-contain {
@@ -1245,10 +1252,6 @@ video {
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
-
-.pb-16 {
-  padding-bottom: 4rem;
 }
 
 .pb-4 {
@@ -1349,11 +1352,6 @@ video {
 .text-\[\#FFF9F9\] {
   --tw-text-opacity: 1;
   color: rgb(255 249 249 / var(--tw-text-opacity, 1));
-}
-
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .text-gray-300 {
