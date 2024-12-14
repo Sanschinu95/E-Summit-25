@@ -3,6 +3,9 @@ module.exports = {
   content: ["./**/*.html"],
   theme: {
     extend: {
+      backgroundImage: {
+        'red-to-black': 'linear-gradient(to right, #E50914, #000000)',
+      },
       colors:{
         "primary":"#E50914"
       },
