@@ -167,6 +167,7 @@ div.instagram-posts {
     flex-shrink: 0;
     border-radius: 0.3225rem;
     background: #D9D9D9;
+    overflow:hidden ;
 }
 
 img.instagram-post-image {
@@ -192,43 +193,18 @@ div.footer-one-social {
 }
 
 
-/* @media (max-width: 1150px){
-    h2.footer-head{
-        font-size:1.4rem;
-    }
-    div.contact-element-text{
-        font-size: 0.8rem;
-    }
-    div.footer-input>input{
-        font-size: 0.8rem;
-    }
-    div.footer-three-posts {
-        grid-template-columns: repeat(3, 4.5rem);
-        grid-template-rows: repeat(2, 5rem);
-        row-gap: 1.6rem;
-        column-gap: 1.6rem;
-    } */
-
 @media (max-width: 1060px){
     h2.footer-head{
         font-size:1.37rem;
     }
-    div.contact-element-text{
-        font-size: 0.78rem;
-    }
-    div.footer-input>input{
-        font-size: 0.78rem;
-    }
+    
     div.footer-three-posts {
         grid-template-columns: repeat(3, 3.5rem);
         grid-template-rows: repeat(2, 4rem);
         row-gap: 1.1rem;
         column-gap: 1.1rem;
     }
-    div.footer-input>textarea{
-        font-size: 0.7rem;
-        
-    }
+ 
     div.footer-two{
         padding: 1rem 2.5rem;
     }
@@ -251,7 +227,8 @@ div.footer-one-social {
     }
     section.footer {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
         padding: 1rem;
     }
 
@@ -269,6 +246,16 @@ div.footer-one-social {
         padding: 2rem;
         border-bottom: 1px solid #515151;
         margin-bottom: 3rem;
+    } 
+    div.footer-one{
+        grid-row-start: 2;
+        grid-row-end: 3;
+       
+    }
+    div.footer-one{
+        grid-row-start: 3;
+        border-top:1px solid #515151 ; 
+        padding-top: 4rem;
     }
 
     div.footer-three-posts {
@@ -279,6 +266,8 @@ div.footer-one-social {
 
     div.footer-two {
         border-right: none;
+        border-left: none;
+        
         padding: 1rem 2rem;
     }
 
@@ -294,14 +283,9 @@ div.footer-one-social {
         width: 5.5rem;
     }
     h2.footer-head{
-        font-size:1.4rem;
+        font-size:2.0rem;
     }
-    div.contact-element-text{
-        font-size: 0.8rem;
-    }
-    div.footer-input>input{
-        font-size: 0.8rem;
-    }
+    
     .footer-social-image {
         width: 1.3rem;
         height: 1.3rem;
@@ -310,22 +294,16 @@ div.footer-one-social {
 
 @media (max-width: 530px){
     div.footer-three-posts {
-        grid-template-columns: repeat(3, 3.5rem);
-        grid-template-rows: repeat(2, 3.5rem);
-        column-gap: 2rem;
+        column-gap: 1.3rem;
     }
     h2.footer-head{
-        font-size:1.28rem;
+        font-size:2.0rem;
     }
-    div.contact-element-text{
-        font-size: 0.64rem;
-    }
-    div.footer-input>input{
-        font-size: 0.64rem;
-    }
+    
     div.footer-input>textarea{
         height: 100px;
-        font-size: 0.6375rem;
+        font-size: 0.75rem;
+     
         
     }
     div.button-wrapper {
@@ -334,39 +312,34 @@ div.footer-one-social {
         /* align-items: center; */
         justify-content: left;
     }
-    button.footer-form-submit-button {
-        border: 1px solid #E50914;
-        border-radius: 0.65rem;
-        width: 5.95713rem;
-        height: 1.7625rem;
-        color: #949494;
-        text-align: center;
-        font-family: 'Inter';
-        font-size: 0.5875rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;}
+    div.contact-element-text{
+        font-size: 0.75rem;
+    }
+    div.footer-input>input{
+        font-size: 0.75rem;
+    }
+   
+    
+        
     
 
 }
 @media (max-width: 450px){
-    div.footer-three-posts {
-        grid-template-columns: repeat(3, 3.5rem);
-        grid-template-rows: repeat(2, 3.5rem);
+     div.footer-three-posts {
+        grid-template-columns: repeat(3, 4rem);
+        grid-template-rows: repeat(2, 4rem);
         column-gap: 2rem;
-    }
+    } 
     h2.footer-head{
-        font-size:1.18rem;
+        font-size:1.58rem;
     }
-    div.contact-element-text{
+    
+    /* div.footer-input>input{
         font-size: 0.55rem;
-    }
-    div.footer-input>input{
-        font-size: 0.55rem;
-    }
+    } */
     div.footer-input>textarea{
         height: 50px;
-        font-size: 0.5375rem;
+        
         
     }
     div.footer-one {
@@ -376,64 +349,54 @@ div.footer-one-social {
         border-right: none;
         padding: 1rem 1rem;
     }
-    button.footer-form-submit-button {
-        border: 1px solid #E50914;
-        border-radius: 0.65rem;
-        width: 5.55713rem;
-        height: 1.5625rem;
-        color: #949494;
-        text-align: center;
-        font-family: 'Inter';
-        font-size: 0.5075rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;}
         
     section.footer {
             padding: 2rem 0.4rem;
             background-position:left;
         }
-    div.footer-contact-element{
-        gap: 0.6rem;
-        max-width: 10rem;
-    }
-    img.contact-element-image {
-        width: 0.75rem;
-        height: 0.7275rem;}
+   
+   
     div.footer-two {
         border-right: none;
         padding: 1rem 1rem;
     }
     div.footer-one {
-        padding: 1rem 0rem;
+        padding: 4rem 1rem;
         display: flex;
         flex-direction: column;
-        align-items: center;
+
+      
     }
     div.footer-input>textarea{
         height: 90px;
     }
-    .footer-social-image {
-        width: 1rem;
-        height: 1rem;
+    button.footer-form-submit-button {
+        border: 1px solid #E50914;
+        border-radius: 0.75rem;
+        width: 6.35713rem;
+        height: 1.8625rem;
+        color: #949494;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 0.5875rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.0825rem;
     }
+    
+    
+   
 }
 @media (max-width: 370px){
     section.footer{
         padding: 2rem 0rem;
     }
-    h2.footer-head{
-        font-size:0.85rem;
-    }
-    div.contact-element-text{
-        font-size: 0.4rem;
-    }
-    div.footer-input>input{
-        font-size: 0.4rem;
-    }
+    
+
     div.footer-input>textarea{
         height: 80px;
-        font-size: 0.4075rem;
+       
         
     }
     button.footer-form-submit-button {
