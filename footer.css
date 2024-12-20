@@ -168,7 +168,24 @@ div.instagram-posts {
     border-radius: 0.3225rem;
     background: #D9D9D9;
     overflow:hidden ;
+    transition: all 0.3s ease-in-out;
 }
+div.instagram-posts:hover{
+    transform: scale(1.1);
+    border: 0.11px solid #E50914;
+}
+
+.footer-social-element{
+    transition: all 0.3s ease-in-out;
+
+}
+.footer-social-element:hover{
+    transform: scale(1.2);
+   
+
+}
+
+
 
 img.instagram-post-image {
     display: block;
@@ -208,9 +225,7 @@ div.footer-one-social {
     div.footer-two{
         padding: 1rem 2.5rem;
     }
-    div.footer-input>textarea{
-        height: 98px;
-    }
+   
     .footer-social-image {
         width: 1.3rem;
         height: 1.3rem;
@@ -301,7 +316,6 @@ div.footer-one-social {
     }
     
     div.footer-input>textarea{
-        height: 100px;
         font-size: 0.75rem;
      
         
@@ -334,14 +348,6 @@ div.footer-one-social {
         font-size:1.58rem;
     }
     
-    /* div.footer-input>input{
-        font-size: 0.55rem;
-    } */
-    div.footer-input>textarea{
-        height: 50px;
-        
-        
-    }
     div.footer-one {
         padding: 1rem 0.3rem;
     }
@@ -367,9 +373,7 @@ div.footer-one-social {
 
       
     }
-    div.footer-input>textarea{
-        height: 90px;
-    }
+
     button.footer-form-submit-button {
         border: 1px solid #E50914;
         border-radius: 0.75rem;
@@ -393,12 +397,6 @@ div.footer-one-social {
         padding: 2rem 0rem;
     }
     
-
-    div.footer-input>textarea{
-        height: 80px;
-       
-        
-    }
     button.footer-form-submit-button {
         border: 1px solid #E50914;
         border-radius: 0.45rem;
