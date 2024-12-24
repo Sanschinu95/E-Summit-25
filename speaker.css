@@ -19,9 +19,10 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url('assests/speakers/background.png');
+  background-image: url('assets/speakers/background.png');
   background-size: cover;
   background-position: center;
+  filter: blur(10px);
 }
 h3 {
   margin-bottom: 30px; }
