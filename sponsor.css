@@ -190,9 +190,54 @@ img.sponsor-image,img.partner-image,img.media-partner-image {
 }
 
 
+/* CO-TITLE SPN */
 
+#Co-title-spn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+ 
+    gap: 3rem;
+    padding: 4rem;
+    
+}
 
+.co-title-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+    h1{
+        font-size: 2.7rem;
+    }
 
+}
+.co-logo{
+    background-image: url(./assets/Sail_logo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 50%;
+   
+    
+}
+
+.co-title-text{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+
+    
+    p{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+}
 
 
 

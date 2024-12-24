@@ -1,0 +1,40 @@
+.swiper-slide{
+    /* background-image: url(./assets/event-gallery/e2.webp); */
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+
+.swiper-slide1{
+    background-image: url(./assets/event-gallery/one.png);
+}
+
+.swiper-slide2{
+    background-image: url(./assets/event-gallery/e2.JPG);
+}
+.swiper-slide3{
+    background-image: url(./assets/event-gallery/e3.JPG);
+}
+.swiper-slide4{
+    background-image: url(./assets/event-gallery/e4.jpg);
+}
+.swiper-slide5{
+    background-image: url(./assets/event-gallery/e5.jpg);
+}
+.swiper-slide6{
+    background-image: url(./assets/event-gallery/e6.jpg);
+}
+.swiper-slide7{
+    background-image: url(./assets/event-gallery/e7.jpg);
+}
+.swiper-slide8{
+    background-image: url(./assets/event-gallery/e8.jpg);
+}
+
+.swiper-slide9{
+    background-image: url(./assets/event-gallery/e9.jpg);
+}
+.swiper-slide10{
+    background-image: url(./assets/event-gallery/e10.jpg);
+}
