@@ -25,114 +25,11 @@
     body {
   font-family: 'Inter', sans-serif;
 }
-.preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-  }
 
-  .netflix-spinner {
-    width: 50px;
-    height: 50px;
-    border: 4px solid transparent;
-    border-top: 4px solid #E50914;
-    border-radius: 50%;
-    animation: spin 1s linear infinite, hideSpinner 0.3s 2s forwards; 
-  }
-
-  .netflix-logo {
-    position: absolute;
-    opacity: 0;
-    width: 151px;
-    height: 55px;
-     background-image:url(assets/esummit25logo.svg);
-    
-    animation: showLogo 0.5s ease-out 2.5s forwards, 
-               zoomOut 1s ease-in 3s forwards;
-  }
-
-  .loader {
-    display: none;
-    color: white;
-    opacity: 0;
-    animation: fadeContent 1s ease-out 4s forwards; 
-  }
-
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-
-  @keyframes hideSpinner {
-    to {
-      opacity: 0;
-      visibility: hidden;
-    }
-  }
-
-  @keyframes showLogo {
-    0% {
-      opacity: 0;
-      transform: skew(0deg) scale(0.5);
-    }
-    100% {
-      opacity: 1;
-      transform: skew(0deg) scale(1);
-    }
-  }
-
-  @keyframes zoomOut {
-    0% {
-      transform: skew(0deg) scale(1);
-    }
-    100% {
-      transform: skew(0deg) scale(20);
-      opacity: 0;
-    }
-  }
-
-  @keyframes fadeBackground {
-    from {
-      background-color: black;
-    }
-    to {
-      background-color: transparent;
-    }
-  }
-
-  @keyframes fadeContent {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-      display: block;
-    }
-  }
-
-  .preloader {
-    animation: fadeBackground 1s ease-out 3s forwards; 
-  }
-
-  .loader {
-    animation: fadeContent 1s ease-out 4s forwards;
-  }
 
   </style>
 </head>
 <body>
-  <!-- PreLoader -->
-  <div class="preloader">
-    <div class="netflix-spinner"></div>
-    <div class="netflix-logo"></div>
-  </div>
   
   <!-- NAV BAR -->
   
@@ -169,7 +66,7 @@
 
       <!-- Hero Section Starts -->
 
-    <section id="hero" class="show hid min-h-screen w-full bg-[url('/assets/herobg.jpg')] bg-no-repeat bg-cover flex flex-col items-center justify-center p-10" >
+    <section id="hero" class=" min-h-screen w-full bg-[url('/assets/herobg.jpg')] bg-no-repeat bg-cover flex flex-col items-center justify-center p-10" >
 
       <div id="hero-main"
         class="w-full max-w-7xl h-auto flex flex-col justify-start items-start "
@@ -223,7 +120,7 @@
           <div id="days-ind-3" class="transition-[width,height] absolute right-0 top-0 w-[10%] h-1/2 bg-primary"></div>
           <div id="days-ind-4" class="transition-[width,height] absolute right-0 bottom-0 w-1/2 h-[10%] bg-primary"></div>
           
-          <span class="relative z-20 bg-black rounded sm:rounded-lg md:rounded-xl count aspect-square h-auto w-14 sm:min-w-28 md:min-w-32 lg:min-w-40 gap-1 md:gap-2 flex flex-col  font-counter text-center justify-center items-center">
+          <span class=" show hid relative z-20 bg-black rounded sm:rounded-lg md:rounded-xl count aspect-square h-auto w-14 sm:min-w-28 md:min-w-32 lg:min-w-40 gap-1 md:gap-2 flex flex-col  font-counter text-center justify-center items-center">
             <p id="count-days" class="font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl" >
                 00
             </p>
@@ -241,7 +138,7 @@
           <div id="hours-ind-4" class="transition-[width,height] absolute right-0 bottom-0 w-1/2 h-[10%] bg-primary"></div>
           
 
-          <span class="z-20 relative bg-black rounded sm:rounded-lg md:rounded-xl count aspect-square h-auto w-14 sm:min-w-28 md:min-w-32 lg:min-w-40 gap-1 md:gap-2  flex flex-col font-counter text-center justify-center items-center">
+          <span class=" show hid z-20 relative bg-black rounded sm:rounded-lg md:rounded-xl count aspect-square h-auto w-14 sm:min-w-28 md:min-w-32 lg:min-w-40 gap-1 md:gap-2  flex flex-col font-counter text-center justify-center items-center">
             <p id="count-hours" class="font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl" >
                 00
             </p>
@@ -270,7 +167,7 @@
           <div id="secs-ind-3" class="transition-[width,height] absolute right-0 top-0 w-[10%] h-1/2 bg-primary"></div>
           <div id="secs-ind-4" class="transition-[width,height] absolute right-0 bottom-0 w-1/2 h-[10%] bg-primary"></div>
           
-          <span class="z-20 relative bg-black rounded sm:rounded-lg md:rounded-xl count aspect-square h-auto w-14 sm:min-w-28 md:min-w-32 lg:min-w-40 gap-1 md:gap-2 flex flex-col  font-counter text-center justify-center items-center">
+          <span class=" show hid z-20 relative bg-black rounded sm:rounded-lg md:rounded-xl count aspect-square h-auto w-14 sm:min-w-28 md:min-w-32 lg:min-w-40 gap-1 md:gap-2 flex flex-col  font-counter text-center justify-center items-center">
             <p id="count-secs" class="font-extrabold text-xl sm:text-4xl md:text-5xl lg:text-6xl" >00</p>
             <p class="uppercase font-extralight text-xs md:text-md lg:text-lg" >Secs</p>
         </span>
