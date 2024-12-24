@@ -12,7 +12,7 @@
 }
 
 @media(prefers-reduced-motion){
-    .hidden{
+    .hid{
         transition: none;
     }
 }
