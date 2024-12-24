@@ -15,12 +15,6 @@ section.sponsor {
     
 }
 
-#particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1000;
-}
 
 h3.sponsor-con-h1,h3.partner-con-h1,h3.media-partner-con-h1  {
     color: #E8E8E8;
