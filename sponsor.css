@@ -3,9 +3,10 @@
 section.sponsor {
     width:100%;
     background-image: url(assets/Sponsors/spn_bg.webp);
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/Sponsors/spn_bg.webp'); */
     background-size: cover;
     background-position: center center;
-    padding: 5rem 10rem;
+    padding: 5rem 3rem 2rem 3rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
