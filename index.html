@@ -180,8 +180,9 @@
       <!-- Hero Section Ends -->
   
       <!-- About Us Section Starts -->
+       
       <section id="about" class="about-us">
-    
+        <div id="about-particles"></div>
     <div class="logo-container">
       <figure>
         <img src="assets/about-us/E-Cell logo main 1.png" alt="E-Cell MANIT Logo">
@@ -215,6 +216,8 @@
   <!--Co-Title Sponsor-->
   <section id="Co-title-spn">
    
+    <div id="about-particles"></div>
+
     <div class="co-title-logo">
       <h1>OUR CO-TITLE SPONSOR</h1>
       <div class="co-logo"></div>
@@ -1328,6 +1331,35 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="./carousel-2.js"></script>
   <script src="./timeline.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    // Initialize Particle.js for "about-particles"
+    particlesJS('about-particles', {
+      particles: {
+        number: { value: 50, density: { enable: true, value_area: 800 } },
+        color: { value: ["#ff4500", "#ff6347", "#ffa500"] },
+        shape: { type: "circle" },
+        opacity: { value: 0.8, random: true },
+        size: { value: 5, random: true },
+        line_linked: { enable: false },
+        move: { enable: true, speed: 2, random: true }
+      }
+    });
+  
+    // Initialize Particle.js for "co-title-particles"
+    particlesJS('co-title-particles', {
+      particles: {
+        number: { value: 50, density: { enable: true, value_area: 800 } },
+        color: { value: ["#ff4500", "#ff6347", "#ffa500"] },
+        shape: { type: "circle" },
+        opacity: { value: 0.8, random: true },
+        size: { value: 5, random: true },
+        line_linked: { enable: false },
+        move: { enable: true, speed: 2, random: true }
+      }
+    });
+  </script>
+  
 
 </body>
 </html>
