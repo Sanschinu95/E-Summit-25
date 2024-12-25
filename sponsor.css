@@ -6,7 +6,7 @@ section.sponsor {
     /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/Sponsors/spn_bg.webp'); */
     background-size: cover;
     background-position: center center;
-    padding: 5rem 3rem 0rem 3rem;
+    /* padding: 5rem 3rem 0rem 3rem; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -14,6 +14,11 @@ section.sponsor {
     justify-content: center;
     gap: 8rem;
     
+}
+
+.sponsor-image-container{
+    padding: 5rem 3rem 0rem 3rem;
+
 }
 
 
@@ -106,8 +111,11 @@ img.sponsor-image,img.partner-image,img.media-partner-image {
 
 
 @media screen and (max-width: 1160px) and (min-width: 601px){
-    section.sponsor{
+    
+
+    .sponsor-image-container{
         padding: 3rem 2rem;
+
     }
     
     h3.sponsor-con-h1,h3.partner-con-h1,h3.media-partner-con-h1 {
@@ -127,8 +135,17 @@ img.sponsor-image,img.partner-image,img.media-partner-image {
 
 @media screen and (max-width: 600px){
     section.sponsor{
-        padding: 3rem 2rem;
+       
         background-size: contain;
+    }
+
+    .sponsor-image-container{
+        padding: 3rem 2rem;
+
+    }
+
+    .sponsor-image-container{
+        padding: 1rem;
     }
     
     h3.sponsor-con-h1,h3.partner-con-h1,h3.media-partner-con-h1 {
@@ -158,10 +175,12 @@ img.sponsor-image,img.partner-image,img.media-partner-image {
 
 
 @media screen and (max-width: 450px){
-    section.sponsor{
-        padding: 3rem 1rem;
-    }
+  
     
+    .sponsor-image-container{
+        padding: 3rem 2rem;
+
+    }
     h3.sponsor-con-h1,h3.partner-con-h1,h3.media-partner-con-h1 {
         font-size:  1.0rem;
         margin-bottom: 0.4rem;
