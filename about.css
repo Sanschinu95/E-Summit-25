@@ -86,7 +86,7 @@ body {
 }
 
 .about-us .content {
-  max-width: 750px;
+  max-width: 700px;
 }
 
 
@@ -139,9 +139,4 @@ body {
     font-size: 0.85rem; 
     text-align: justify;
   }
-}
-
-
-.card{
-
 }

@@ -192,9 +192,9 @@
        
       <section id="about" class="about-us">
         <div id="about-particles"></div>
-        <div class="w-full md:w-1/2">
+        <div class="pt-20 w-full md:w-1/2">
           <iframe
-            class="w-full h-64 md:h-80 rounded-lg shadow-lg show hid"
+            class="  w-full h-64 md:h-80 rounded-lg shadow-lg show hid"
             src="https://www.youtube.com/embed/a9lfRswWt0U?si=clkZTFh_In9Ik4qO"
             title="YouTube video player"
             frameborder="0"
@@ -209,16 +209,13 @@
 
 
     
-    <div class=" show hid content w-full px-5 sm:px-7 md:px-10 py-10 flex flex-col items-center justify-center gap-6 sm:gap-8 md:gap-12">
+    <div class=" show hid content w-full px-5 sm:px-7 md:px-10 py-10 flex flex-col items-center justify-center gap-3 sm:gap-2 md:gap-4">
       <h1 class="w-full pb-4 bg-gradient-to-r from-[#501619] via-primary to-[#7F050B] text-center font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-transparent bg-clip-text items-center ">About Us</h1>
       <p >
         Entrepreneurship Cell NIT Bhopal is a voluntary organisation aimed at fostering a vibrant startup culture and nurturing a comprehensive entrepreneurial ecosystem among the youth.
       </p>
       <p>
-        
-
         Every year, E-Cell organises Central India's largest entrepreneurial fest, E-Summit along with its flagship podcast series, Pe-Charcha, bringing together a diverse community of budding entrepreneurs, innovators, and creators from across the nation. E-Summit offers an unparalleled platform for learning, networking, and showcasing talent through engaging activities like the Startup Expo, Business Plan Competition, IPL Auction and more. It serves as a catalyst for creativity, collaboration, and the growth of the next generation of entrepreneurs. E-Summit provides a dynamic stage where ideas are transformed into opportunities and innovative visions into successful ventures.
-
       </p>
     </div>
     <div class="gradient-container-2">
@@ -250,6 +247,7 @@
 
     <div class="join-opa"></div>
         <div class="join-title-sponsor">
+          <div id="co-title-particles"></div>
             <div id="swiper2" style="overflow-x: hidden;">
                 <div class="swiper-wrapper-co">
                     <div class="swiper-slide-co">
@@ -291,10 +289,9 @@
 
   <!--Events Section Starts-->
 
-  <section id ="events"class="bg-black min-h-screen text-white flex items-center justify-center px-5">
-    
-
-    <div class="container mx-auto p-4 md:p-8">
+  <section id ="events"class="bg-black min-h-screen text-white flex items-center justify-center px-5 relative">
+    <div id="events-particles" class="absolute inset-0 z-0"></div>
+    <div class="container mx-auto p-4 md:p-8 relative z-10">
      
       <h1 class="show hid text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-[#FFF9F9] text-center font-semibold mb-5">
         Join Events
@@ -334,7 +331,9 @@
             <img src="assets/event-logos/bplan.png" alt="Business Plan Logo" class="w-16 h-16 object-contain">
           </div>
           <div class="text-center z-10 relative">
-            <h2 class="text-lg md:text-xl font-semibold mb-2">Business Plan Competition</h2>
+            <h2 class="text-lg md:text-xl font-semibold mb-2">Business Plan </h2>
+            <h2 class="text-lg md:text-xl font-semibold mb-2 -my-3">
+              Competition</h2>
             <p class="text-justify text-sm md:text-base text-gray-300">
               Business plan competition is a dynamic platform that empowers participating teams and startups in the ideation and validation phase to step into the spotlight, pitch their ideas to a panel of incubators, venture capitalists and industry experts.
             </p>
@@ -476,11 +475,12 @@
         <!-- Card 10 -->
   <div class="show hid relative bg-[#221F1F] bg-opacity-90 rounded-lg p-6  border border-white/20 outline outline-1 outline-white shadow-[0_0_10px_1px_rgba(255,255,255,0.5)]">
     <div class="absolute -top-7 -right-7 w-16 h-16 bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center outline outline-1 outline-white shadow-[0_0_10px_1px_rgba(255,255,255,0.5)] border border-white/20">
-      <img src="assets/event-logos/industry.png" alt="Business Plan Logo" class="w-16 h-16 object-contain">
+      <img src="assets/event-logos/iic.png" alt="Business Plan Logo" class="w-16 h-16 object-contain">
     </div>
     <div class="text-center z-10 relative">
       <h2 class="text-lg md:text-xl font-semibold mb-2">Industry</h2>
-      <h2 class="text-lg md:text-xl font-semibold mb-2"> Innovation Conclave</h2>
+      <h2 class="text-lg md:text-xl font-semibold mb-2 -my-3">
+        Innovation Conclave</h2>
 
 
       <p class="text-justify text-sm md:text-base text-gray-300">
@@ -488,7 +488,7 @@
       </p>
     </div>
     <div class="absolute inset-0  flex items-center overflow-hidden opacity-30" >
-      <img src="assets/event-logos/industry.png" alt="Startup Expo Logo" class="h-[120%]   object-contain -translate-x-1/2 ">
+      <img src="assets/event-logos/iic.png" alt="Startup Expo Logo" class="h-[120%]   object-contain -translate-x-1/2 ">
     </div>
   </div>
 
@@ -1153,236 +1153,257 @@
    <!-- SPONSORS -->
   <section id="sponsors" class="sponsor relative">
 
-    <div id="blender" class="absolute top-0 left-0 right-0 h-1/4 z-10 bg-gradient-to-b from-black to-transparent ">
 
+
+    <div id="blender" class="absolute top-0 left-0 right-0 h-1/4 z-10 bg-gradient-to-b from-black to-transparent ">
     </div>
 
     <div class="sponsor-con z-30">
-        <h3 class="show hid sponsor-con-h1" >Sponsors And Partners</h3>
+      <h3 class="show hid sponsor-con-h1" >Sponsors And Partners</h3>
+      <h1 class="w-full pb-4 bg-gradient-to-r from-[#501619] via-primary to-[#7F050B] text-center font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-transparent bg-clip-text items-center ">Meet Our Sponsors And Partners</h1>
+      <p class="show hid sponsor-con-text">Grateful acknowledgment to our valued sponsors and partners whose unwavering support powers the success of our E-Summit experience.</p>
+   <div class="sponsor-image-container" id="all-sponsors-brands">
+
+    <a href="https://www.sail.co.in/en" style="text-decoration: none;">
+        <div class="sponsor-image-wrapper">
+            <img src="assets/currentSponsor/Sail_logo.jpg" alt="3ways" class="sponsor-image">
+        </div>
+    </a>
+    <a href="https://www.aicrntu.com/" style="text-decoration: none;">
+      <div class="sponsor-image-wrapper">
+          <img src="assets/Sponsors/aicrntu.webp" alt="3ways" class="sponsor-image">
+      </div>
+   </a>
+   <a href="https://www.raphe.com/" style="text-decoration: none;">
+    <div class="sponsor-image-wrapper">
+        <img src="assets/Sponsors/raphe-mphibr.png" alt="3ways" class="sponsor-image">
+    </div>
+   </a>
+   <a href="https://www.theeducationtree.com/" style="text-decoration: none;">
+    <div class="sponsor-image-wrapper">
+        <img src="assets/currentSponsor/educationtree.png" alt="3ways" class="sponsor-image">
+    </div>
+   </a>
+   <a href="https://startupnews.fyi/" style="text-decoration: none;">
+    <div class="sponsor-image-wrapper">
+        <img src="assets/currentSponsor/startupnewsfyi.jpeg" alt="3ways" class="sponsor-image">
+    </div>
+   </a>
+   <a href="https://www.easemytrip.com/" style="text-decoration: none;">
+    <div class="sponsor-image-wrapper">
+        <img src="assets/currentSponsor/easemytrip.png" alt="3ways" class="sponsor-image">
+    </div>
+   </a>
+   <a href="https://mp.tie.org/" style="text-decoration: none;">
+    <div class="sponsor-image-wrapper">
+        <img src="assets/currentSponsor/mptie.png" alt="3ways" class="sponsor-image">
+    </div>
+   </a>
+   <a href="https://unstop.com/" style="text-decoration: none;">
+    <div class="sponsor-image-wrapper">
+        <img src="assets/currentSponsor/unstop.png" alt="3ways" class="sponsor-image">
+    </div>
+    </a>
+    <a href="https://www.impactfulpitch.com/" style="text-decoration: none;">
+      <div class="sponsor-image-wrapper">
+          <img src="assets/currentSponsor/impactfulpitch-logo.png" alt="3ways" class="sponsor-image">
+      </div>
+     </a>
+          
+    </div>
+  </div>
+
+    <div class="sponsor-con z-30">
         <h1 class="w-full pb-4 bg-gradient-to-r from-[#501619] via-primary to-[#7F050B] text-center font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-transparent bg-clip-text items-center ">Meet Our Past Sponsors And Partners</h1>
-        <p class="show hid sponsor-con-text">Grateful acknowledgment to our valued sponsors and partners whose unwavering support powers the success of our E-Summit experience.</p>
+        <p class="show hid sponsor-con-text">E-Cell NIT-B sincerely appreciates your support for our mission to incline the nation towards an entrepreneurial India.</p>
      <div class="sponsor-image-container" id="all-sponsors-brands">
 
-
-          <div class="sponsor-image-wrapper">
-              <img src="assets/Sponsors/3ways.webp" alt="3ways" class="sponsor-image">
-          </div>
-          <div class="sponsor-image-wrapper">
-              <img src="assets/Sponsors/adani.webp" alt="adani" class="sponsor-image">
-          </div>
-          <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/startupvisors.webp" alt="startupvisors" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/starworks_prime_logo.webp" alt="starworks prime logo" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/stock wealth academy.webp" alt="stock wealth academy" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/inovative script.webp" alt="inovative script" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/iocl.webp" alt="iocl" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/jiosaavn.webp" alt="jiosaavn" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/kitab_lovers.webp" alt="kitab lovers" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Learning While Traveling.webp" alt="Learning While Traveling" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/mansarovar.webp" alt="mansarovar" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/MEITY.webp" alt="MEITY" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/mpsu.webp" alt="mpsu" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/MSG91.webp" alt="MSG91" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/pan macmillan.webp" alt="pan macmillan" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/papertrade.webp" alt="papertrade" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/PedalStart.webp" alt="PedalStart" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/pngegg.webp" alt="pngegg" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/quillbot.webp" alt="quillbot" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/raphe-mphibr.png" alt="raphe mphibr" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Real Vision.webp" alt="Real Vision" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/recklabs_logo.webp" alt="recklabs logo" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/RECKLABS.webp" alt="RECKLABS" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/redfm.webp" alt="redfm" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/roostoo.webp" alt="roostoo" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/rupeexy.webp" alt="rupeexy" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/sf.webp" alt="sf" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/sixthsenselogo.webp" alt="sixthsenselogo" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/aws.webp" alt="aws" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/bansal.webp" alt="bansal" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/bhopal_angels.webp" alt="bhopal angels" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/bob.webp" alt="bob" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/boudhik.webp" alt="boudhik" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/bv.webp" alt="bv" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Canva.webp" alt="Canva" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/coingape.png" alt="coingape" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/coolberg.webp" alt="coolberg" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/crowdera.webp" alt="crowdera" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/easymytrip.webp" alt="easymytrip" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Expand My Business.webp" alt="Expand My Business" class="sponsor-image">
-        </div>
-        <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/forethought.webp" alt="forethought" class="sponsor-image">
-        </div>
+      <a href="https://www.adani.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/freashworks.webp" alt="freashworks" class="sponsor-image">
+            <img src="assets/Sponsors/adani.webp" alt="Adani" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://rupeezy.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/ftlt.webp" alt="ftIt" class="sponsor-image">
+            <img src="assets/Sponsors/rupeezy.webp" alt="Rupeezy" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://www.aicrntu.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/goodworks_cowork_logo.webp" alt="goodworks cowork logo" class="sponsor-image">
+            <img src="assets/Sponsors/aic-rntu.webp" alt="AIC-RNTU" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://coingape.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/hpcl.webp" alt="hpcl" class="sponsor-image">
+            <img src="assets/Sponsors/coingape.webp" alt="CoinGape" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://www.raphemphibr.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/3ways.webp" alt="3ways" class="sponsor-image">
+            <img src="assets/Sponsors/raphe-mphibr.webp" alt="RAPHE mPhibr" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://www.iimcip.org/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/adani.webp" alt="adani" class="sponsor-image">
+            <img src="assets/Sponsors/iim-calcutta.webp" alt="IIM Calcutta Innovation Park" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://www.bankofbaroda.in/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/aicrntu.webp" alt="aicrntu" class="sponsor-image">
+            <img src="assets/Sponsors/bank-of-baroda.webp" alt="Bank of Baroda" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://bhopalangels.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/ApnaCast.webp" alt="ApnaCast" class="sponsor-image">
+            <img src="assets/Sponsors/bhopal-angels.webp" alt="Bhopal Angels" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://www.wfglobal.org/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/arrow.webp" alt="arrow" class="sponsor-image">
+            <img src="assets/Sponsors/wadhwani-foundation.webp" alt="Wadhwani Foundation" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://aws.amazon.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 5.webp" alt="Asset 5" class="sponsor-image">
+            <img src="assets/Sponsors/aws.webp" alt="AWS" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://www.canva.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 6.webp" alt="Asset 6" class="sponsor-image">
+            <img src="assets/Sponsors/canva.webp" alt="Canva" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://www.taskade.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 7.webp" alt="Asset 7" class="sponsor-image">
+            <img src="assets/Sponsors/taskade.webp" alt="Taskade" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://www.startupvisors.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 8.webp" alt="Asset 8" class="sponsor-image">
+            <img src="assets/Sponsors/startupvisors.webp" alt="Startupvisors" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://recklabs.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 9.webp" alt="Asset 9" class="sponsor-image">
+            <img src="assets/Sponsors/recklabs.webp" alt="Recklabs" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://msg91.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 10.webp" alt="Asset 10" class="sponsor-image">
+            <img src="assets/Sponsors/msg91.webp" alt="MSG91" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://www.iamstartup.co/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 11.webp" alt="Asset 11" class="sponsor-image">
+            <img src="assets/Sponsors/iam-startup.webp" alt="I AM STARTUP" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://givemycertificate.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 12.webp" alt="Asset 12" class="sponsor-image">
+            <img src="assets/Sponsors/give-my-certificate.webp" alt="Give My Certificate" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://www.jiosaavn.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 13.webp" alt="Asset 13" class="sponsor-image">
+            <img src="assets/Sponsors/jiosaavn.webp" alt="JioSaavn" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://sixthsensecrm.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 14.webp" alt="Asset 14" class="sponsor-image">
+            <img src="assets/Sponsors/sixth-sense.webp" alt="Sixth Sense" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://icreate.org.in/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 15.webp" alt="Asset 15" class="sponsor-image">
+            <img src="assets/Sponsors/icreate.webp" alt="iCreate" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://kitablovers.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 16.webp" alt="Asset 16" class="sponsor-image">
+            <img src="assets/Sponsors/kitablovers.webp" alt="Kitablovers" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://unstop.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 17.webp" alt="Asset 17" class="sponsor-image">
+            <img src="assets/Sponsors/unstop.webp" alt="Unstop" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://www.mgu.ac.in/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 18.webp" alt="Asset 18" class="sponsor-image">
+            <img src="assets/Sponsors/mgu.webp" alt="MGU" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://inshorts.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 19.webp" alt="Asset 19" class="sponsor-image">
+            <img src="assets/Sponsors/inshorts.webp" alt="Inshorts" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://teachnook.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 21.webp" alt="Asset 21" class="sponsor-image">
+            <img src="assets/Sponsors/teachnook.webp" alt="Teachnook" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://papertrade.io/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 22.webp" alt="Asset 22" class="sponsor-image">
+            <img src="assets/Sponsors/paper-trade.webp" alt="Paper Trade" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://shekunj.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 23.webp" alt="Asset 23" class="sponsor-image">
+            <img src="assets/Sponsors/shekunj.webp" alt="Shekunj" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://www.offistore.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 24.webp" alt="Asset 24" class="sponsor-image">
+            <img src="assets/Sponsors/offistore.webp" alt="OffiStore" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://makhanut.com/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 25.webp" alt="Asset 25" class="sponsor-image">
+            <img src="assets/Sponsors/makhanut.webp" alt="Makhanut" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://boudhik.in/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 26.webp" alt="Asset 26" class="sponsor-image">
+            <img src="assets/Sponsors/boudhik-ip.webp" alt="Boudhik IP" class="sponsor-image">
         </div>
+    </a>
+    
+    <a href="https://www.redfmindia.in/" style="text-decoration: none;">
         <div class="sponsor-image-wrapper">
-            <img src="assets/Sponsors/Asset 27.webp" alt="Asset 27" class="sponsor-image">
+            <img src="assets/Sponsors/red-fm.webp" alt="Red FM" class="sponsor-image">
         </div>
-            
-      </div>
-    </div>
+    </a>
+    
 
     <!--partner-->
    <!-- <div class="partner-con">
@@ -1687,8 +1708,7 @@
         move: { enable: true, speed: 2, random: true }
       }
     });
-  
-    // Initialize Particle.js for "co-title-particles"
+    
     particlesJS('co-title-particles', {
       particles: {
         number: { value: 50, density: { enable: true, value_area: 800 } },
@@ -1700,6 +1720,19 @@
         move: { enable: true, speed: 2, random: true }
       }
     });
+    
+    particlesJS('events-particles', {
+        particles: {
+            number: { value: 80, density: { enable: true, value_area: 800 } },
+            color: { value: ["#ff4500", "#ff6347", "#ffa500"] },
+            shape: { type: "circle" },
+            opacity: { value: 0.8, random: true },
+            size: { value: 5, random: true },
+            line_linked: { enable: false },
+            move: { enable: true, speed: 2, random: true },
+        }
+    });
+
   </script>
   
 
