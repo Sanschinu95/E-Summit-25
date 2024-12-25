@@ -1,6 +1,6 @@
 
 .join-title-sponsor {
-    background: linear-gradient(70deg, rgba(255, 255, 255, 0.10) 19.74%, rgba(255, 255, 255, 0.00) 113.46%);
+    background: black;
     backdrop-filter: blur(5px);
     width: 100%;
     display: flex;
@@ -30,7 +30,7 @@
 }
 
 .title-sponsor-content-head {
-    color: #E8E8E8;
+    color: linear-gradient(to right, #501619, var(--primary), #7F050B);
     font-family: Inter;
     font-size: 2rem;
     font-style: normal;
@@ -43,10 +43,10 @@
     margin-top: 2rem;
     color: #E8E8E8;
     text-align: justify;
-    font-family: Inter;
+    
     font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
+    
+    
     line-height: 1.675rem;
     letter-spacing: 0.05313rem;
     margin-bottom: 2rem;
