@@ -33,7 +33,7 @@ const swiper2 = new Swiper('#testis-swiper', {
   loop: true,
 
   autoplay: {
-      delay: 2500, // ms delay between transitions
+      delay: 4000, // ms delay between transitions
       disableOnInteraction: false, // Continue autoplay after user interaction
     },
 
