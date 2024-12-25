@@ -620,42 +620,6 @@ video {
   left: 50%;
 }
 
-.left-\[100\%\] {
-  left: 100%;
-}
-
-.left-\[200\%\] {
-  left: 200%;
-}
-
-.left-\[300\%\] {
-  left: 300%;
-}
-
-.left-\[400\%\] {
-  left: 400%;
-}
-
-.left-\[500\%\] {
-  left: 500%;
-}
-
-.left-\[600\%\] {
-  left: 600%;
-}
-
-.left-\[700\%\] {
-  left: 700%;
-}
-
-.left-\[800\%\] {
-  left: 800%;
-}
-
-.left-\[900\%\] {
-  left: 900%;
-}
-
 .right-0 {
   right: 0px;
 }
@@ -716,6 +680,10 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
@@ -833,6 +801,10 @@ video {
 
 .w-4\/5 {
   width: 80%;
+}
+
+.w-56 {
+  width: 14rem;
 }
 
 .w-\[10\%\] {
@@ -1019,6 +991,10 @@ video {
   gap: 2rem;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1123,8 +1099,8 @@ video {
   background-image: url('/assets/herobg.jpg');
 }
 
-.bg-\[url\(assets\/Sail_logo\.jpg\)\] {
-  background-image: url(assets/Sail_logo.jpg);
+.bg-\[url\(\'assets\/Sail_logo\.jpg\'\)\] {
+  background-image: url('assets/Sail_logo.jpg');
 }
 
 .bg-gradient-to-b {
@@ -1353,6 +1329,10 @@ video {
   font-weight: 200;
 }
 
+.font-medium {
+  font-weight: 500;
+}
+
 .font-normal {
   font-weight: 400;
 }
@@ -1363,6 +1343,11 @@ video {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.text-\[\#E50914\] {
+  --tw-text-opacity: 1;
+  color: rgb(229 9 20 / var(--tw-text-opacity, 1));
 }
 
 .text-\[\#E5E5E5\] {
@@ -1543,6 +1528,10 @@ body,html{
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
 .active\:scale-90:active {
   --tw-scale-x: .9;
   --tw-scale-y: .9;
@@ -1566,16 +1555,16 @@ body,html{
     margin-bottom: 2.5rem;
   }
 
-  .sm\:w-24 {
-    width: 6rem;
-  }
-
   .sm\:w-3 {
     width: 0.75rem;
   }
 
   .sm\:w-36 {
     width: 9rem;
+  }
+
+  .sm\:w-64 {
+    width: 16rem;
   }
 
   .sm\:min-w-28 {
@@ -1675,10 +1664,6 @@ body,html{
     width: 50%;
   }
 
-  .md\:w-28 {
-    width: 7rem;
-  }
-
   .md\:w-3\/4 {
     width: 75%;
   }
@@ -1693,6 +1678,10 @@ body,html{
 
   .md\:w-40 {
     width: 10rem;
+  }
+
+  .md\:w-72 {
+    width: 18rem;
   }
 
   .md\:min-w-32 {
