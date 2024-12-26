@@ -5,7 +5,7 @@
     transform: translateX(-10%);
 }
 
-.show{
+.sho{
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
@@ -16,7 +16,7 @@
         transition: none;
     }
 }
-.show{
+.sho{
     opacity: 1;
 }
 
