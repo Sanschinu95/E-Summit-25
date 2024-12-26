@@ -16,9 +16,6 @@
         transition: none;
     }
 }
-.sho{
-    opacity: 1;
-}
 
 .card:hover{
   transform: translateY(-10px);
