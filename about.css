@@ -95,6 +95,8 @@ body {
   font-size: 1.1rem;
   z-index: 90;
   text-align: justify;
+  font-family: Inter;
+  letter-spacing: 0.04313rem;
 }
 
 /* Responsive Styles */
