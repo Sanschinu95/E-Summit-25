@@ -82,6 +82,7 @@ h3 {
   height: 230px;
   border-radius: 8px;
   object-fit: cover;
+  /* border: 1px solid red; */
 }
 
 .speaker p {

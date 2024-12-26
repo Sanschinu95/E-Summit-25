@@ -7,7 +7,7 @@ section.footer {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 2rem 0rem;
+    padding: 2rem 2.5rem;
     color: #B5B5B6;
     justify-content: space-evenly;
     /* position: relative; */
