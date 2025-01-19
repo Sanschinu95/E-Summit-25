@@ -72,13 +72,15 @@ janDaysButtons.forEach( (day,idx) => {
 const febDaysButtons = [
     document.getElementById("feb-d1-btn"),
     document.getElementById("feb-d2-btn"),
-    document.getElementById("feb-d3-btn")
+    document.getElementById("feb-d3-btn"),
+    document.getElementById("feb-d4-btn"),
 ]
 
 const febDateBoxes = [
     document.getElementById("feb-date1"),
     document.getElementById("feb-date2"),
-    document.getElementById("feb-date3")
+    document.getElementById("feb-date3"),
+    document.getElementById("feb-date4")
 ]
 
 let activeFebDay = 0;

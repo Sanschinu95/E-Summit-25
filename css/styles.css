@@ -683,16 +683,16 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .mt-20 {
   margin-top: 5rem;
 }
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
 }
 
 .flex {
@@ -808,12 +808,12 @@ video {
   width: 7rem;
 }
 
-.w-32 {
-  width: 8rem;
-}
-
 .w-4\/5 {
   width: 80%;
+}
+
+.w-40 {
+  width: 10rem;
 }
 
 .w-56 {
@@ -848,10 +848,6 @@ video {
 .w-min {
   width: -moz-min-content;
   width: min-content;
-}
-
-.w-40 {
-  width: 10rem;
 }
 
 .min-w-40 {
@@ -1129,6 +1125,10 @@ video {
   --tw-bg-opacity: 0.9;
 }
 
+.bg-\[url\(\'\/assets\/Sail_logo\.jpg\'\)\] {
+  background-image: url('/assets/Sail_logo.jpg');
+}
+
 .bg-\[url\(\'\/assets\/event-schedule-bg\.png\'\)\] {
   background-image: url('/assets/event-schedule-bg.png');
 }
@@ -1139,10 +1139,6 @@ video {
 
 .bg-\[url\(\'\/assets\/testimonialbg\.png\'\)\] {
   background-image: url('/assets/testimonialbg.png');
-}
-
-.bg-\[url\(\'assets\/Sail_logo\.jpg\'\)\] {
-  background-image: url('assets/Sail_logo.jpg');
 }
 
 .bg-gradient-to-b {
@@ -1159,14 +1155,6 @@ video {
 
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'\.\/assets\/Sail_logo\.jpg\'\)\] {
-  background-image: url('./assets/Sail_logo.jpg');
-}
-
-.bg-\[url\(\'\/assets\/Sail_logo\.jpg\'\)\] {
-  background-image: url('/assets/Sail_logo.jpg');
 }
 
 .from-\[\#501619\] {
@@ -1245,12 +1233,12 @@ video {
   --tw-gradient-to: transparent var(--tw-gradient-to-position);
 }
 
-.bg-cover {
-  background-size: cover;
-}
-
 .bg-contain {
   background-size: contain;
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-clip-text {
@@ -1258,12 +1246,12 @@ video {
           background-clip: text;
 }
 
-.bg-top {
-  background-position: top;
-}
-
 .bg-center {
   background-position: center;
+}
+
+.bg-top {
+  background-position: top;
 }
 
 .bg-no-repeat {
@@ -1337,6 +1325,10 @@ video {
   padding-bottom: 5rem;
 }
 
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -1351,10 +1343,6 @@ video {
 
 .pt-20 {
   padding-top: 5rem;
-}
-
-.pb-20 {
-  padding-bottom: 5rem;
 }
 
 .text-left {
@@ -1668,16 +1656,12 @@ body,html{
     width: 0.75rem;
   }
 
-  .sm\:w-36 {
-    width: 9rem;
+  .sm\:w-56 {
+    width: 14rem;
   }
 
   .sm\:w-64 {
     width: 16rem;
-  }
-
-  .sm\:w-56 {
-    width: 14rem;
   }
 
   .sm\:min-w-28 {
@@ -1793,20 +1777,12 @@ body,html{
     width: 80%;
   }
 
-  .md\:w-40 {
-    width: 10rem;
+  .md\:w-64 {
+    width: 16rem;
   }
 
   .md\:w-72 {
     width: 18rem;
-  }
-
-  .md\:w-56 {
-    width: 14rem;
-  }
-
-  .md\:w-64 {
-    width: 16rem;
   }
 
   .md\:min-w-32 {
