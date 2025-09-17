@@ -1,29 +1,5 @@
 {
-    "buildCommand": "cd bplanjr && npm install && npm run build",
-    "outputDirectory": "bplanjr/dist",
-    "installCommand": "cd bplanjr && npm install",
-    "rewrites": [
-        { 
-            "source": "/bplanjr",
-            "destination": "/bplanjr/index.html"
-        },
-        { 
-            "source": "/bplanjr/:path*",
-            "destination": "/bplanjr/index.html"
-        },
-        {
-            "source": "/(.*)",
-            "destination": "/index.html"
-        }
-    ],
-    "builds": [
-        {
-            "src": "bplanjr/package.json",
-            "use": "@vercel/node"
-        },
-        {
-            "src": "index.html",
-            "use": "@vercel/static"
-        }
-    ]
-}
+    "buildCommand": "npm run build",
+    "outputDirectory": ".",
+    "installCommand": "npm install"
+  }
