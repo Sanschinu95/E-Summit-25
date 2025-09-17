@@ -3,7 +3,11 @@
     "outputDirectory": "bplanjr/dist",
     "installCommand": "cd bplanjr && npm install",
     "rewrites": [
-        {
+        { 
+            "source": "/bplanjr",
+            "destination": "/bplanjr/index.html"
+        },
+        { 
             "source": "/bplanjr/:path*",
             "destination": "/bplanjr/index.html"
         },
