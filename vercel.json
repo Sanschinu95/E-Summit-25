@@ -1,5 +1,26 @@
 {
-    "buildCommand": "npm run build",
-    "outputDirectory": ".",
-    "installCommand": "npm install"
-  }
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "."
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/bplanjr",
+      "dest": "/bplanjr/index.html"
+    },
+    {
+      "src": "/bplanjr/(.*)",
+      "dest": "/bplanjr/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
