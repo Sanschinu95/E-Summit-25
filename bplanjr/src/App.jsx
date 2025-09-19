@@ -12,7 +12,7 @@ import {
   Linkedin,
   Github,
 } from "lucide-react";
-import AboutUs from './components/AboutUs';
+import AboutUs from './components/AboutUS1';
 import ContactUs from './components/ContactUs';
 import EventGallery from './components/EventGallery';
 import MetricsSectiion from './components/MetricsSection';
