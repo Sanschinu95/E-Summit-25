@@ -38,7 +38,7 @@ const AboutUs = () => (
         <div>
           <h2 className="text-4xl lg:text-5xl font-extrabold mb-6">
             <span className="bg-gradient-to-r from-yellow-400 to-amber-500 bg-clip-text text-transparent text-glow">
-              About B-Plan Junior
+              About The Competition
             </span>
           </h2>
           <p className="text-gray-300 mb-8 text-lg">
