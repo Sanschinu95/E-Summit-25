@@ -2,25 +2,21 @@
   "version": 2,
   "builds": [
     {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "."
-      }
+      "src": "bplanjr/package.json",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "/bplanjr",
-      "dest": "/bplanjr/index.html"
-    },
-    {
       "src": "/bplanjr/(.*)",
-      "dest": "/bplanjr/$1"
+      "dest": "/bplanjr/dist/index.html"
     },
     {
       "src": "/(.*)",
-      "dest": "/$1"
+      "dest": "/index.html"
     }
-  ]
+  ],
+  "buildCommand": "cd bplanjr && npm install && npm run build",
+  "outputDirectory": "bplanjr/dist",
+  "installCommand": "cd bplanjr && npm install"
 }
