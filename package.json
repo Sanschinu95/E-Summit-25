@@ -5,7 +5,7 @@
     "tailwindcss": "^3.4.16"
   },
   "scripts": {
-    "build": "tailwindcss -i ./css/input.css -o ./css/styles.css && cd bplanjr && npm install && npm run build && xcopy dist\\* . /E /I /Y",
+    "build": "tailwindcss -i ./css/input.css -o ./css/styles.css && cd bplanjr && npm install && npm run build && cd .. && node copy-build.js",
     "dev": "tailwindcss -i ./css/input.css -o ./css/styles.css --watch"
   }
 }
