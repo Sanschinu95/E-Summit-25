@@ -10,6 +10,7 @@ export default defineConfig({
   base: '/bplanjr/',  
   build: {
     outDir: 'dist',
-    assetsDir: 'assets'
+    assetsDir: 'assets',
+    emptyOutDir: true
   }
 })

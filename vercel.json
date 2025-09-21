@@ -7,16 +7,23 @@
       "config": {
         "distDir": "."
       }
+    },
+    {
+      "src": "bplanjr/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "bplanjr/dist"
+      }
     }
   ],
   "routes": [
     {
       "src": "/bplanjr",
-      "dest": "/bplanjr/index.html"
+      "dest": "/bplanjr/dist/index.html"
     },
     {
       "src": "/bplanjr/(.*)",
-      "dest": "/bplanjr/$1"
+      "dest": "/bplanjr/dist/$1"
     },
     {
       "src": "/(.*)",
