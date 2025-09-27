@@ -49,7 +49,9 @@ const RegisterNow = () => {
     if (manit === "yes" && !scholarNo) return "Scholar Number is required.";
     if (manit === "no" && !org) return "College / School name is required.";
     if (!idCardLink) return "Please provide your ID Card Google Drive link.";
-    if (manit === "no" && !utrId) return "UTR ID is required for Non-MANIT.";
+    if (manit === "no" && (!utrId || utrId.length !== 12)) {
+      return "Please enter valid 12-digit UTR ID for Non-MANIT participants.";
+    }
     return null;
   };
 
@@ -409,10 +411,22 @@ const RegisterNow = () => {
                         : "Pay ₹149 for Individual registration."}
                     </p>
                     <input
-                      type="text"
+                      type="number"
                       value={utrId}
-                      onChange={(e) => setUtrId(e.target.value)}
-                      placeholder="Enter UTR ID for payment verification"
+                      onChange={(e) => {
+                        const value = e.target.value;
+                        if (/^\d{0,12}$/.test(value)) {  // Only allow up to 12 digits
+                          setUtrId(value);
+                        }
+                      }}
+                      onInput={(e) => {
+                        if (e.target.value.length > 12) {
+                          e.target.value = e.target.value.slice(0, 12);  // Truncate to 12 digits
+                        }
+                      }}
+                      placeholder="Enter 12-digit UTR ID for payment verification"
+                      maxLength="12"
+                      minLength="12"
                       className="w-full px-4 py-3 bg-black/30 border border-yellow-500/20 text-white rounded-lg"
                       required
                     />

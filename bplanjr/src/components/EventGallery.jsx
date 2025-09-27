@@ -4,9 +4,9 @@ import img1 from "../assets/Winner.png";
 import img2 from "../assets/DSC_0021.JPG";
 import img3 from "../assets/DSC_0029.JPG";
 import img4 from "../assets/DSC_0034.JPG";
-import img5 from "../assets/DSC_0324.JPG";
-import img6 from "../assets/DSC_0182.JPG";
-import img8 from "../assets/DSC_0175.JPG";
+import img5 from "../assets/20250215_112837.jpg";
+import img6 from "../assets/VIV00355.jpg";
+import img8 from "../assets/VIV00368.jpg";
 
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
