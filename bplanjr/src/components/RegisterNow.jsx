@@ -164,7 +164,7 @@ const RegisterNow = () => {
               <li>
                 A valid Google Drive link of your ID Card is mandatory for all.(Provide public view access link)
               </li>
-              <li>Maximum 4 participants allowed per team (including team leader).</li>
+              <li>Maximum 5 participants allowed per team (including team leader).</li>
             </ul>
 
             <div className="mt-6 p-4 bg-black/60 border border-yellow-500/20 rounded-lg text-sm text-gray-200">
