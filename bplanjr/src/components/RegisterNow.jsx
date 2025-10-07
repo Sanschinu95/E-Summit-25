@@ -1,5 +1,5 @@
 "use client";
-import Qr from "../assets/QrCode.jpg";
+import Qr from "../assets/QrCode.png";
 import Qr2 from "../assets/QrCode2.jpeg";
 import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
