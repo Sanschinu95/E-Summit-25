@@ -337,7 +337,7 @@ const RegisterNow = () => {
                       <input
                         type="radio"
                         name="manit"
-                        value="School"
+                        value="school"
                         checked={manit === "school"}
                         onChange={(e) => setManit(e.target.value)}
                         className="accent-yellow-400"
