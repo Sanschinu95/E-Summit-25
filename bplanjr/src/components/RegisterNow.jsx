@@ -343,7 +343,7 @@ const RegisterNow = () => {
                         className="accent-yellow-400"
                         required
                       />
-                      <span>No</span>
+                      <span>School</span>
                     </label>
                   </div>
                 </div>
