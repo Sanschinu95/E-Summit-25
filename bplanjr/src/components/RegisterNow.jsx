@@ -306,7 +306,7 @@ const RegisterNow = () => {
                 {/* MANIT Radio */}
                 <div className="space-y-2">
                   <p className="text-white font-semibold">
-                    Are you from MANIT / Any School? <span className="text-red-500">*</span>
+                    Are you from MANIT / School Student? <span className="text-red-500">*</span>
                   </p>
                   <div className="flex items-center space-x-4">
                     <label className="flex items-center space-x-2 text-white">
@@ -327,6 +327,18 @@ const RegisterNow = () => {
                         name="manit"
                         value="no"
                         checked={manit === "no"}
+                        onChange={(e) => setManit(e.target.value)}
+                        className="accent-yellow-400"
+                        required
+                      />
+                      <span>No</span>
+                    </label>
+                    <label className="flex items-center space-x-2 text-white">
+                      <input
+                        type="radio"
+                        name="manit"
+                        value="School"
+                        checked={manit === "school"}
                         onChange={(e) => setManit(e.target.value)}
                         className="accent-yellow-400"
                         required
