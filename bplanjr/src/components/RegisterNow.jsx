@@ -306,7 +306,7 @@ const RegisterNow = () => {
                 {/* MANIT Radio */}
                 <div className="space-y-2">
                   <p className="text-white font-semibold">
-                    Are you from MANIT? <span className="text-red-500">*</span>
+                    Are you from MANIT / Any School? <span className="text-red-500">*</span>
                   </p>
                   <div className="flex items-center space-x-4">
                     <label className="flex items-center space-x-2 text-white">
