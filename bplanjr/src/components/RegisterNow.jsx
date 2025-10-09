@@ -181,6 +181,9 @@ const RegisterNow = () => {
                 <li>
                   <span className="font-semibold text-yellow-300">Non-MANIT Team:</span> ₹499
                 </li>
+                <li>
+                  <span className="font-semibold text-yellow-300">School Team:</span> ₹499
+                </li>
               </ul>
               <p className="mt-2 text-lg">
                 <span className="text-yellow-300 mt-2">Note:</span> Without payment your registration will be cancelled (Non-MANIT participants)
@@ -306,7 +309,7 @@ const RegisterNow = () => {
                 {/* MANIT Radio */}
                 <div className="space-y-2">
                   <p className="text-white font-semibold">
-                    Are you from MANIT / School Student? <span className="text-red-500">*</span>
+                    Select Institute Type <span className="text-red-500">*</span>
                   </p>
                   <div className="flex items-center space-x-4">
                     <label className="flex items-center space-x-2 text-white">
@@ -319,7 +322,7 @@ const RegisterNow = () => {
                         className="accent-yellow-400"
                         required
                       />
-                      <span>Yes</span>
+                      <span>MANIT</span>
                     </label>
                     <label className="flex items-center space-x-2 text-white">
                       <input
@@ -331,7 +334,7 @@ const RegisterNow = () => {
                         className="accent-yellow-400"
                         required
                       />
-                      <span>No</span>
+                      <span>Other College</span>
                     </label>
                     <label className="flex items-center space-x-2 text-white">
                       <input
