@@ -182,7 +182,7 @@ const RegisterNow = () => {
                   <span className="font-semibold text-yellow-300">Non-MANIT Team:</span> ₹499
                 </li>
                 <li>
-                  <span className="font-semibold text-yellow-300">School Team:</span> ₹499
+                  <span className="font-semibold text-yellow-300">School Individual/Team:</span> Free
                 </li>
               </ul>
               <p className="mt-2 text-lg">
