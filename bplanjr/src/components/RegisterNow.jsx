@@ -370,6 +370,17 @@ const RegisterNow = () => {
                   />
                 )}
 
+                {manit === "school" && (
+                  <input
+                    type="text"
+                    value={org}
+                    onChange={(e) => setScholarNo(e.target.value)}
+                    placeholder="Parents Mobile Number"
+                    className="w-full px-4 py-3 bg-black/30 border border-yellow-500/20 text-white rounded-lg"
+                    required
+                  />
+                )}
+
                 <input
                   type="url"
                   value={idCardLink}
