@@ -356,7 +356,7 @@ const RegisterNow = () => {
                     type="text"
                     value={org}
                     onChange={(e) => setOrg(e.target.value)}
-                    placeholder="College / School"
+                    placeholder="Name of Your College"
                     className="w-full px-4 py-3 bg-black/30 border border-yellow-500/20 text-white rounded-lg"
                     required
                   />
@@ -377,8 +377,8 @@ const RegisterNow = () => {
                   <input
                     type="text"
                     value={org}
-                    onChange={(e) => setScholarNo(e.target.value)}
-                    placeholder="Parents Mobile Number"
+                    onChange={(e) => setOrg(e.target.value)}
+                    placeholder="Name of Your School"
                     className="w-full px-4 py-3 bg-black/30 border border-yellow-500/20 text-white rounded-lg"
                     required
                   />
