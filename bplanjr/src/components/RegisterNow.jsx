@@ -194,7 +194,18 @@ const RegisterNow = () => {
 
         {/* Right Side - Form */}
         <div className="bg-white/5 backdrop-blur-lg border border-yellow-500/30 rounded-2xl p-8 shadow-lg shadow-yellow-500/10">
-          <form className="space-y-6" onSubmit={handleSubmit}>
+          <div className="text-center">
+    <h3 className="text-3xl font-bold text-yellow-400 mb-4">Registration Closed</h3>
+    <p className="text-gray-300 text-lg">
+      Thank you for your interest in Business Plan Jr. Registrations are now closed.
+    </p>
+    <p className="text-gray-400 mt-4">
+      Stay tuned for future updates and announcements!
+    </p>
+    
+  </div>
+        
+          {/* <form className="space-y-6" onSubmit={handleSubmit}>
             <select
               value={participationType}
               onChange={(e) => setParticipationType(e.target.value)}
@@ -306,7 +317,7 @@ const RegisterNow = () => {
                   </>
                 )}
 
-                {/* MANIT Radio */}
+                // MANIT / Other College / School Radio Buttons
                 <div className="space-y-2">
                   <p className="text-white font-semibold">
                     Select Institute Type <span className="text-red-500">*</span>
@@ -468,8 +479,9 @@ const RegisterNow = () => {
                 </button>
               </>
             )}
-          </form>
-        </div>
+          </form> */}
+        </div> 
+        
       </div>
     </section>
   );
