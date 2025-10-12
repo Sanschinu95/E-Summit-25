@@ -194,7 +194,7 @@ const RegisterNow = () => {
 
         {/* Right Side - Form */}
         <div className="bg-white/5 backdrop-blur-lg border border-yellow-500/30 rounded-2xl p-8 shadow-lg shadow-yellow-500/10">
-          {/* <div className="text-center">
+          <div className="text-center">
     <h3 className="text-3xl font-bold text-yellow-400 mb-4">Registration Closed</h3>
     <p className="text-gray-300 text-lg">
       Thank you for your interest in Business Plan Jr. Registrations are now closed.
@@ -203,8 +203,8 @@ const RegisterNow = () => {
       Stay tuned for future updates and announcements!
     </p>
     
-  </div> */}
-        
+  </div>
+{/*         
           <form className="space-y-6" onSubmit={handleSubmit}>
             <select
               value={participationType}
@@ -478,7 +478,7 @@ const RegisterNow = () => {
                 </button>
               </>
             )}
-          </form>
+          </form> */}
         </div> 
         
       </div>
