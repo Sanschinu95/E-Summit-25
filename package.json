@@ -7,5 +7,8 @@
   "scripts": {
     "build": "tailwindcss -i ./css/input.css -o ./css/styles.css && cd bplanjr && npm install && npm run build && cd .. && node copy-build.js",
     "dev": "tailwindcss -i ./css/input.css -o ./css/styles.css --watch"
+  },
+  "dependencies": {
+    "react-icons": "^5.5.0"
   }
 }
