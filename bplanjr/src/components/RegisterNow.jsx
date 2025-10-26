@@ -115,48 +115,23 @@ const SubmitPPT = () => {
 
         {/* Right Side - Form */}
         <div className="bg-white/5 backdrop-blur-lg border border-yellow-500/30 rounded-2xl p-8 shadow-lg shadow-yellow-500/10">
-          <form className="space-y-6" onSubmit={handleSubmit}>
-            <input
-              type="text"
-              value={leaderName}
-              onChange={(e) => setLeaderName(e.target.value)}
-              placeholder="Leader Name"
-              className="w-full px-4 py-3 bg-black/30 border border-yellow-500/20 text-white rounded-lg"
-              required
-            />
-            <input
-              type="text"
-              value={teamName}
-              onChange={(e) => setTeamName(e.target.value)}
-              placeholder="Team Name"
-              className="w-full px-4 py-3 bg-black/30 border border-yellow-500/20 text-white rounded-lg"
-              required
-            />
-            <input
-              type="text"
-              value={collegeName}
-              onChange={(e) => setCollegeName(e.target.value)}
-              placeholder="College Name"
-              className="w-full px-4 py-3 bg-black/30 border border-yellow-500/20 text-white rounded-lg"
-              required
-            />
-            <input
-              type="url"
-              value={pptLink}
-              onChange={(e) => setPptLink(e.target.value)}
-              placeholder="Google Drive Link for PPT"
-              className="w-full px-4 py-3 bg-black/30 border border-yellow-500/20 text-white rounded-lg"
-              required
-            />
-
-            <button
-              type="submit"
-              disabled={isSubmitting}
-              className="w-full py-3 bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 text-black font-bold rounded-lg hover:scale-105 transition-all disabled:opacity-70"
-            >
-              {isSubmitting ? "Submitting..." : "Submit PPT"}
-            </button>
-          </form>
+          <div className="text-center">
+            <h3 className="text-3xl font-bold text-yellow-400 mb-4">Submissions Closed</h3>
+            <div className="space-y-4">
+              <p className="text-gray-300 text-lg">
+                Thank you for your overwhelming response!
+              </p>
+              <p className="text-gray-300 text-lg">
+                The registration window for Business Plan Jr. is now closed.
+              </p>
+              <p className="text-gray-200 text-xl mt-6 font-semibold">
+                Best of luck to all participants! 🌟
+              </p>
+              <p className="text-gray-400 mt-4">
+                For any queries, reach out 
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
